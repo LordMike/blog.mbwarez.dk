@@ -178,7 +178,7 @@
       <pubDate>Sat, 07 Aug 2010 00:00:00 +0000</pubDate>
       <guid>https://blog.mbwarez.dk/posts/2010/wardriving-triangulation/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;For my &lt;a href=&#34;http://blog.mbwarez.dk/?p=161&#34;&gt;previous post&lt;/a&gt;, where I find the signal strength of WiFi spots, I also needed an algorithm to actually locate the spot. I decided to use triangulation, which is commonly used in wireless communications to locate devices based on signal strength from known positions.&lt;/p&gt;
+&lt;p&gt;For my &lt;a href=&#34;https://blog.mbwarez.dk/posts/2010/wifi-scanner/&#34;&gt;previous post&lt;/a&gt;, where I find the signal strength of WiFi spots, I also needed an algorithm to actually locate the spot. I decided to use triangulation, which is commonly used in wireless communications to locate devices based on signal strength from known positions.&lt;/p&gt;
 &lt;p&gt;As my system uses GPS, I had to consider the Earth&amp;rsquo;s curvature. Calculating the geographic midpoint on a sphere isn&amp;rsquo;t trivial, but &lt;a href=&#34;http://www.geomidpoint.com/calculation.html&#34;&gt;GeoMidpoint&lt;/a&gt; provides a great explanation (Method A).&lt;/p&gt;</description>
     </item>
     <item>
