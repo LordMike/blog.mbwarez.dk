@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>NuGet on Thoughts, stories and ideas</title>
-    <link>https://blog.mbwarez.dk.github.io/tags/nuget/</link>
+    <link>https://blog.mbwarez.dk/tags/nuget/</link>
     <description>Recent content in NuGet on Thoughts, stories and ideas</description>
     <image>
       <title>Thoughts, stories and ideas</title>
-      <url>https://blog.mbwarez.dk.github.io/assets/images/cover.jpg</url>
-      <link>https://blog.mbwarez.dk.github.io/assets/images/cover.jpg</link>
+      <url>https://blog.mbwarez.dk/assets/images/cover.jpg</url>
+      <link>https://blog.mbwarez.dk/assets/images/cover.jpg</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <copyright>Michael Bisbjerg</copyright>
     <lastBuildDate>Sun, 28 Mar 2021 10:55:53 +0000</lastBuildDate>
-    <atom:link href="https://blog.mbwarez.dk.github.io/tags/nuget/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.mbwarez.dk/tags/nuget/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Consuming NuGet packages from my GitHub</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2021/consuming-my-nuget-packages-from-github/</link>
+      <link>https://blog.mbwarez.dk/posts/2021/consuming-my-nuget-packages-from-github/</link>
       <pubDate>Sun, 28 Mar 2021 10:55:53 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2021/consuming-my-nuget-packages-from-github/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2021/consuming-my-nuget-packages-from-github/</guid>
       <description>A short guide for consuming GitHub-hosted NuGet packages, using access tokens and CLI.</description>
     </item>
   </channel>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>EFCore on Thoughts, stories and ideas</title>
+    <link>https://blog.mbwarez.dk/tags/efcore/</link>
+    <description>Recent content in EFCore on Thoughts, stories and ideas</description>
+    <image>
+      <title>Thoughts, stories and ideas</title>
+      <url>https://blog.mbwarez.dk/assets/images/cover.jpg</url>
+      <link>https://blog.mbwarez.dk/assets/images/cover.jpg</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en</language>
+    <copyright>Michael Bisbjerg</copyright>
+    <lastBuildDate>Thu, 08 Jun 2023 16:43:12 +0000</lastBuildDate>
+    <atom:link href="https://blog.mbwarez.dk/tags/efcore/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Entity Framework Core: Querying views, but manipulating tables</title>
+      <link>https://blog.mbwarez.dk/posts/2023/entity-framework-core-querying-views-manipulating-tables/</link>
+      <pubDate>Thu, 08 Jun 2023 16:43:12 +0000</pubDate>
+      <guid>https://blog.mbwarez.dk/posts/2023/entity-framework-core-querying-views-manipulating-tables/</guid>
+      <description>Exploring techniques for querying from views while inserting/updating through tables in EF Core.</description>
+    </item>
+  </channel>
+</rss>

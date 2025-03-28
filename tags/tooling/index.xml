@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tooling on Thoughts, stories and ideas</title>
-    <link>https://blog.mbwarez.dk.github.io/tags/tooling/</link>
+    <link>https://blog.mbwarez.dk/tags/tooling/</link>
     <description>Recent content in Tooling on Thoughts, stories and ideas</description>
     <image>
       <title>Thoughts, stories and ideas</title>
-      <url>https://blog.mbwarez.dk.github.io/assets/images/cover.jpg</url>
-      <link>https://blog.mbwarez.dk.github.io/assets/images/cover.jpg</link>
+      <url>https://blog.mbwarez.dk/assets/images/cover.jpg</url>
+      <link>https://blog.mbwarez.dk/assets/images/cover.jpg</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <copyright>Michael Bisbjerg</copyright>
     <lastBuildDate>Mon, 05 Apr 2021 19:53:27 +0000</lastBuildDate>
-    <atom:link href="https://blog.mbwarez.dk.github.io/tags/tooling/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.mbwarez.dk/tags/tooling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introducing Elephant Projects - Cross-repository refactoring</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2021/introducing-elephant-projects-cross-repository-refactoring/</link>
+      <link>https://blog.mbwarez.dk/posts/2021/introducing-elephant-projects-cross-repository-refactoring/</link>
       <pubDate>Mon, 05 Apr 2021 19:53:27 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2021/introducing-elephant-projects-cross-repository-refactoring/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2021/introducing-elephant-projects-cross-repository-refactoring/</guid>
       <description>A local development tool for switching between NuGet and project references across multiple repositories.</description>
     </item>
   </channel>

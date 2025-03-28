@@ -2,261 +2,268 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Thoughts, stories and ideas</title>
-    <link>https://blog.mbwarez.dk.github.io/tags/</link>
+    <link>https://blog.mbwarez.dk/tags/</link>
     <description>Recent content in Tags on Thoughts, stories and ideas</description>
     <image>
       <title>Thoughts, stories and ideas</title>
-      <url>https://blog.mbwarez.dk.github.io/assets/images/cover.jpg</url>
-      <link>https://blog.mbwarez.dk.github.io/assets/images/cover.jpg</link>
+      <url>https://blog.mbwarez.dk/assets/images/cover.jpg</url>
+      <link>https://blog.mbwarez.dk/assets/images/cover.jpg</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <copyright>Michael Bisbjerg</copyright>
-    <lastBuildDate>Thu, 03 Jun 2021 12:28:36 +0000</lastBuildDate>
-    <atom:link href="https://blog.mbwarez.dk.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jun 2023 16:43:12 +0000</lastBuildDate>
+    <atom:link href="https://blog.mbwarez.dk/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>.NET</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/.net/</link>
-      <pubDate>Thu, 03 Jun 2021 12:28:36 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/.net/</guid>
+      <link>https://blog.mbwarez.dk/tags/.net/</link>
+      <pubDate>Thu, 08 Jun 2023 16:43:12 +0000</pubDate>
+      <guid>https://blog.mbwarez.dk/tags/.net/</guid>
       <description></description>
     </item>
     <item>
       <title>C#</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/c%23/</link>
-      <pubDate>Thu, 03 Jun 2021 12:28:36 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/c%23/</guid>
+      <link>https://blog.mbwarez.dk/tags/c%23/</link>
+      <pubDate>Thu, 08 Jun 2023 16:43:12 +0000</pubDate>
+      <guid>https://blog.mbwarez.dk/tags/c%23/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>EFCore</title>
+      <link>https://blog.mbwarez.dk/tags/efcore/</link>
+      <pubDate>Thu, 08 Jun 2023 16:43:12 +0000</pubDate>
+      <guid>https://blog.mbwarez.dk/tags/efcore/</guid>
       <description></description>
     </item>
     <item>
       <title>Entity Framework Core</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/entity-framework-core/</link>
+      <link>https://blog.mbwarez.dk/tags/entity-framework-core/</link>
       <pubDate>Thu, 03 Jun 2021 12:28:36 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/entity-framework-core/</guid>
+      <guid>https://blog.mbwarez.dk/tags/entity-framework-core/</guid>
       <description></description>
     </item>
     <item>
       <title>Expressions</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/expressions/</link>
+      <link>https://blog.mbwarez.dk/tags/expressions/</link>
       <pubDate>Thu, 03 Jun 2021 12:28:36 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/expressions/</guid>
+      <guid>https://blog.mbwarez.dk/tags/expressions/</guid>
       <description></description>
     </item>
     <item>
       <title>LINQ</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/linq/</link>
+      <link>https://blog.mbwarez.dk/tags/linq/</link>
       <pubDate>Thu, 03 Jun 2021 12:28:36 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/linq/</guid>
+      <guid>https://blog.mbwarez.dk/tags/linq/</guid>
       <description></description>
     </item>
     <item>
       <title>Open Source</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/open-source/</link>
+      <link>https://blog.mbwarez.dk/tags/open-source/</link>
       <pubDate>Thu, 03 Jun 2021 12:28:36 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/open-source/</guid>
+      <guid>https://blog.mbwarez.dk/tags/open-source/</guid>
       <description></description>
     </item>
     <item>
       <title>Projects</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/projects/</link>
+      <link>https://blog.mbwarez.dk/tags/projects/</link>
       <pubDate>Mon, 05 Apr 2021 19:53:27 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/projects/</guid>
+      <guid>https://blog.mbwarez.dk/tags/projects/</guid>
       <description></description>
     </item>
     <item>
       <title>Solution Management</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/solution-management/</link>
+      <link>https://blog.mbwarez.dk/tags/solution-management/</link>
       <pubDate>Mon, 05 Apr 2021 19:53:27 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/solution-management/</guid>
+      <guid>https://blog.mbwarez.dk/tags/solution-management/</guid>
       <description></description>
     </item>
     <item>
       <title>Tooling</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/tooling/</link>
+      <link>https://blog.mbwarez.dk/tags/tooling/</link>
       <pubDate>Mon, 05 Apr 2021 19:53:27 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/tooling/</guid>
+      <guid>https://blog.mbwarez.dk/tags/tooling/</guid>
       <description></description>
     </item>
     <item>
       <title>Utilities</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/utilities/</link>
+      <link>https://blog.mbwarez.dk/tags/utilities/</link>
       <pubDate>Mon, 05 Apr 2021 19:53:27 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/utilities/</guid>
+      <guid>https://blog.mbwarez.dk/tags/utilities/</guid>
       <description></description>
     </item>
     <item>
       <title>GitHub</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/github/</link>
+      <link>https://blog.mbwarez.dk/tags/github/</link>
       <pubDate>Sun, 28 Mar 2021 17:28:34 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/github/</guid>
+      <guid>https://blog.mbwarez.dk/tags/github/</guid>
       <description></description>
     </item>
     <item>
       <title>Terraform</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/terraform/</link>
+      <link>https://blog.mbwarez.dk/tags/terraform/</link>
       <pubDate>Sun, 28 Mar 2021 17:28:34 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/terraform/</guid>
+      <guid>https://blog.mbwarez.dk/tags/terraform/</guid>
       <description></description>
     </item>
     <item>
       <title>DevOps</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/devops/</link>
+      <link>https://blog.mbwarez.dk/tags/devops/</link>
       <pubDate>Sun, 28 Mar 2021 10:55:53 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/devops/</guid>
+      <guid>https://blog.mbwarez.dk/tags/devops/</guid>
       <description></description>
     </item>
     <item>
       <title>NuGet</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/nuget/</link>
+      <link>https://blog.mbwarez.dk/tags/nuget/</link>
       <pubDate>Sun, 28 Mar 2021 10:55:53 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/nuget/</guid>
+      <guid>https://blog.mbwarez.dk/tags/nuget/</guid>
       <description></description>
     </item>
     <item>
       <title>Packaging</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/packaging/</link>
+      <link>https://blog.mbwarez.dk/tags/packaging/</link>
       <pubDate>Sun, 28 Mar 2021 10:55:53 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/packaging/</guid>
+      <guid>https://blog.mbwarez.dk/tags/packaging/</guid>
       <description></description>
     </item>
     <item>
       <title>Advanced Tips</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/advanced-tips/</link>
+      <link>https://blog.mbwarez.dk/tags/advanced-tips/</link>
       <pubDate>Fri, 05 Mar 2021 23:27:14 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/advanced-tips/</guid>
+      <guid>https://blog.mbwarez.dk/tags/advanced-tips/</guid>
       <description></description>
     </item>
     <item>
       <title>Elasticsearch</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/elasticsearch/</link>
+      <link>https://blog.mbwarez.dk/tags/elasticsearch/</link>
       <pubDate>Fri, 05 Mar 2021 23:27:14 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/elasticsearch/</guid>
+      <guid>https://blog.mbwarez.dk/tags/elasticsearch/</guid>
       <description></description>
     </item>
     <item>
       <title>Guides</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/guides/</link>
+      <link>https://blog.mbwarez.dk/tags/guides/</link>
       <pubDate>Fri, 05 Mar 2021 23:27:14 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/guides/</guid>
+      <guid>https://blog.mbwarez.dk/tags/guides/</guid>
       <description></description>
     </item>
     <item>
       <title>Index Management</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/index-management/</link>
+      <link>https://blog.mbwarez.dk/tags/index-management/</link>
       <pubDate>Fri, 05 Mar 2021 23:27:14 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/index-management/</guid>
+      <guid>https://blog.mbwarez.dk/tags/index-management/</guid>
       <description></description>
     </item>
     <item>
       <title>CLI</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/cli/</link>
+      <link>https://blog.mbwarez.dk/tags/cli/</link>
       <pubDate>Wed, 17 Feb 2021 17:42:17 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/cli/</guid>
+      <guid>https://blog.mbwarez.dk/tags/cli/</guid>
       <description></description>
     </item>
     <item>
       <title>Filesystems</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/filesystems/</link>
+      <link>https://blog.mbwarez.dk/tags/filesystems/</link>
       <pubDate>Wed, 17 Feb 2021 17:42:17 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/filesystems/</guid>
+      <guid>https://blog.mbwarez.dk/tags/filesystems/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/windows/</link>
+      <link>https://blog.mbwarez.dk/tags/windows/</link>
       <pubDate>Wed, 17 Feb 2021 17:42:17 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/windows/</guid>
+      <guid>https://blog.mbwarez.dk/tags/windows/</guid>
       <description></description>
     </item>
     <item>
       <title>WSL</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/wsl/</link>
+      <link>https://blog.mbwarez.dk/tags/wsl/</link>
       <pubDate>Wed, 17 Feb 2021 17:42:17 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/wsl/</guid>
+      <guid>https://blog.mbwarez.dk/tags/wsl/</guid>
       <description></description>
     </item>
     <item>
       <title>Gaming</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/gaming/</link>
+      <link>https://blog.mbwarez.dk/tags/gaming/</link>
       <pubDate>Sat, 05 Aug 2017 12:08:40 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/gaming/</guid>
+      <guid>https://blog.mbwarez.dk/tags/gaming/</guid>
       <description></description>
     </item>
     <item>
       <title>Modding</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/modding/</link>
+      <link>https://blog.mbwarez.dk/tags/modding/</link>
       <pubDate>Sat, 05 Aug 2017 12:08:40 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/modding/</guid>
+      <guid>https://blog.mbwarez.dk/tags/modding/</guid>
       <description></description>
     </item>
     <item>
       <title>Reverse Engineering</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/reverse-engineering/</link>
+      <link>https://blog.mbwarez.dk/tags/reverse-engineering/</link>
       <pubDate>Sat, 05 Aug 2017 12:08:40 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/reverse-engineering/</guid>
+      <guid>https://blog.mbwarez.dk/tags/reverse-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Scripting</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/scripting/</link>
+      <link>https://blog.mbwarez.dk/tags/scripting/</link>
       <pubDate>Sat, 05 Aug 2017 12:08:40 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/scripting/</guid>
+      <guid>https://blog.mbwarez.dk/tags/scripting/</guid>
       <description></description>
     </item>
     <item>
       <title>Space Engineers</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/space-engineers/</link>
+      <link>https://blog.mbwarez.dk/tags/space-engineers/</link>
       <pubDate>Sat, 05 Aug 2017 12:08:40 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/space-engineers/</guid>
+      <guid>https://blog.mbwarez.dk/tags/space-engineers/</guid>
       <description></description>
     </item>
     <item>
       <title>Automation</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/automation/</link>
+      <link>https://blog.mbwarez.dk/tags/automation/</link>
       <pubDate>Thu, 07 Jul 2016 10:33:41 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/automation/</guid>
+      <guid>https://blog.mbwarez.dk/tags/automation/</guid>
       <description></description>
     </item>
     <item>
       <title>Let&#39;s Encrypt</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/lets-encrypt/</link>
+      <link>https://blog.mbwarez.dk/tags/lets-encrypt/</link>
       <pubDate>Thu, 07 Jul 2016 10:33:41 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/lets-encrypt/</guid>
+      <guid>https://blog.mbwarez.dk/tags/lets-encrypt/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/linux/</link>
+      <link>https://blog.mbwarez.dk/tags/linux/</link>
       <pubDate>Thu, 07 Jul 2016 10:33:41 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/linux/</guid>
+      <guid>https://blog.mbwarez.dk/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>NGINX</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/nginx/</link>
+      <link>https://blog.mbwarez.dk/tags/nginx/</link>
       <pubDate>Thu, 07 Jul 2016 10:33:41 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/nginx/</guid>
+      <guid>https://blog.mbwarez.dk/tags/nginx/</guid>
       <description></description>
     </item>
     <item>
       <title>SSL</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/ssl/</link>
+      <link>https://blog.mbwarez.dk/tags/ssl/</link>
       <pubDate>Thu, 07 Jul 2016 10:33:41 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/ssl/</guid>
+      <guid>https://blog.mbwarez.dk/tags/ssl/</guid>
       <description></description>
     </item>
     <item>
       <title>Algorithms</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/algorithms/</link>
+      <link>https://blog.mbwarez.dk/tags/algorithms/</link>
       <pubDate>Thu, 29 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/algorithms/</guid>
+      <guid>https://blog.mbwarez.dk/tags/algorithms/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>https://blog.mbwarez.dk.github.io/tags/python/</link>
+      <link>https://blog.mbwarez.dk/tags/python/</link>
       <pubDate>Thu, 29 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/tags/python/</guid>
+      <guid>https://blog.mbwarez.dk/tags/python/</guid>
       <description></description>
     </item>
   </channel>

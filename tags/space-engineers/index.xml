@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Space Engineers on Thoughts, stories and ideas</title>
-    <link>https://blog.mbwarez.dk.github.io/tags/space-engineers/</link>
+    <link>https://blog.mbwarez.dk/tags/space-engineers/</link>
     <description>Recent content in Space Engineers on Thoughts, stories and ideas</description>
     <image>
       <title>Thoughts, stories and ideas</title>
-      <url>https://blog.mbwarez.dk.github.io/assets/images/cover.jpg</url>
-      <link>https://blog.mbwarez.dk.github.io/assets/images/cover.jpg</link>
+      <url>https://blog.mbwarez.dk/assets/images/cover.jpg</url>
+      <link>https://blog.mbwarez.dk/assets/images/cover.jpg</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <copyright>Michael Bisbjerg</copyright>
     <lastBuildDate>Sat, 05 Aug 2017 12:08:40 +0000</lastBuildDate>
-    <atom:link href="https://blog.mbwarez.dk.github.io/tags/space-engineers/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.mbwarez.dk/tags/space-engineers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Space Engineers 01.172 - API Documentation</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2017/space-engineers-01-172-api-documentation/</link>
+      <link>https://blog.mbwarez.dk/posts/2017/space-engineers-01-172-api-documentation/</link>
       <pubDate>Sat, 05 Aug 2017 12:08:40 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2017/space-engineers-01-172-api-documentation/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2017/space-engineers-01-172-api-documentation/</guid>
       <description>API reference for SE 01.172 with focus on Sandbox.ModAPI scripting interfaces.</description>
     </item>
     <item>
       <title>Space Engineers, figuring out the API</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2017/space-engineers-figuring-out-the-api/</link>
+      <link>https://blog.mbwarez.dk/posts/2017/space-engineers-figuring-out-the-api/</link>
       <pubDate>Sat, 05 Aug 2017 12:06:11 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2017/space-engineers-figuring-out-the-api/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2017/space-engineers-figuring-out-the-api/</guid>
       <description>Tips for exploring and reverse-engineering the Space Engineers scripting API using tools like DotPeek.</description>
     </item>
   </channel>

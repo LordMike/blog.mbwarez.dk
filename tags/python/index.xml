@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Python on Thoughts, stories and ideas</title>
-    <link>https://blog.mbwarez.dk.github.io/tags/python/</link>
+    <link>https://blog.mbwarez.dk/tags/python/</link>
     <description>Recent content in Python on Thoughts, stories and ideas</description>
     <image>
       <title>Thoughts, stories and ideas</title>
-      <url>https://blog.mbwarez.dk.github.io/assets/images/cover.jpg</url>
-      <link>https://blog.mbwarez.dk.github.io/assets/images/cover.jpg</link>
+      <url>https://blog.mbwarez.dk/assets/images/cover.jpg</url>
+      <link>https://blog.mbwarez.dk/assets/images/cover.jpg</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <copyright>Michael Bisbjerg</copyright>
     <lastBuildDate>Thu, 29 Jul 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.mbwarez.dk.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.mbwarez.dk/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux incremental hardlink backup system</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2010/incremental-file-backup/</link>
+      <link>https://blog.mbwarez.dk/posts/2010/incremental-file-backup/</link>
       <pubDate>Thu, 29 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2010/incremental-file-backup/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2010/incremental-file-backup/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;While reviewing my old college&amp;rsquo;s IT class backup system (due to running low on disk space), I discovered a major flaw: a weekly 1:1 backup of every user&amp;rsquo;s files—about 40 GB per week. Many of these files never change. Ever.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt; Incremental backups.&lt;/p&gt;
@@ -28,9 +28,9 @@
     </item>
     <item>
       <title>SMS System</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2010/sms-system/</link>
+      <link>https://blog.mbwarez.dk/posts/2010/sms-system/</link>
       <pubDate>Thu, 29 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2010/sms-system/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2010/sms-system/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;As part of the OEP platform at my previous college, we designed an SMS subsystem for messaging Danish mobile phones. It was intended for alerts like account lockouts or password resets. I coded it in Python.&lt;/p&gt;
 &lt;h2 id=&#34;the-scenario&#34;&gt;The Scenario&lt;/h2&gt;

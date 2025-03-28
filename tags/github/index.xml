@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>GitHub on Thoughts, stories and ideas</title>
-    <link>https://blog.mbwarez.dk.github.io/tags/github/</link>
+    <link>https://blog.mbwarez.dk/tags/github/</link>
     <description>Recent content in GitHub on Thoughts, stories and ideas</description>
     <image>
       <title>Thoughts, stories and ideas</title>
-      <url>https://blog.mbwarez.dk.github.io/assets/images/cover.jpg</url>
-      <link>https://blog.mbwarez.dk.github.io/assets/images/cover.jpg</link>
+      <url>https://blog.mbwarez.dk/assets/images/cover.jpg</url>
+      <link>https://blog.mbwarez.dk/assets/images/cover.jpg</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <copyright>Michael Bisbjerg</copyright>
     <lastBuildDate>Sun, 28 Mar 2021 17:28:34 +0000</lastBuildDate>
-    <atom:link href="https://blog.mbwarez.dk.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.mbwarez.dk/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GH Mass-administration: Content</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2021/gh-mass-administration-content/</link>
+      <link>https://blog.mbwarez.dk/posts/2021/gh-mass-administration-content/</link>
       <pubDate>Sun, 28 Mar 2021 17:28:34 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2021/gh-mass-administration-content/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2021/gh-mass-administration-content/</guid>
       <description>Automating repository content and workflows using JSON metadata and a .NET tool.</description>
     </item>
     <item>
       <title>GH Mass-administration: Terraform</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2021/gh-mass-administration-terraform/</link>
+      <link>https://blog.mbwarez.dk/posts/2021/gh-mass-administration-terraform/</link>
       <pubDate>Sun, 28 Mar 2021 17:28:06 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2021/gh-mass-administration-terraform/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2021/gh-mass-administration-terraform/</guid>
       <description>Using Terraform to configure GitHub repository settings, secrets, and policies at scale.</description>
     </item>
     <item>
       <title>Consuming NuGet packages from my GitHub</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2021/consuming-my-nuget-packages-from-github/</link>
+      <link>https://blog.mbwarez.dk/posts/2021/consuming-my-nuget-packages-from-github/</link>
       <pubDate>Sun, 28 Mar 2021 10:55:53 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2021/consuming-my-nuget-packages-from-github/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2021/consuming-my-nuget-packages-from-github/</guid>
       <description>A short guide for consuming GitHub-hosted NuGet packages, using access tokens and CLI.</description>
     </item>
     <item>
       <title>Mass-administration of GitHub repositories</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2021/gh-mass-administration/</link>
+      <link>https://blog.mbwarez.dk/posts/2021/gh-mass-administration/</link>
       <pubDate>Sat, 27 Mar 2021 23:10:59 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2021/gh-mass-administration/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2021/gh-mass-administration/</guid>
       <description>Overview of templating and managing multiple GitHub repositories with shared configuration and content.</description>
     </item>
   </channel>

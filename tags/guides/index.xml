@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Guides on Thoughts, stories and ideas</title>
-    <link>https://blog.mbwarez.dk.github.io/tags/guides/</link>
+    <link>https://blog.mbwarez.dk/tags/guides/</link>
     <description>Recent content in Guides on Thoughts, stories and ideas</description>
     <image>
       <title>Thoughts, stories and ideas</title>
-      <url>https://blog.mbwarez.dk.github.io/assets/images/cover.jpg</url>
-      <link>https://blog.mbwarez.dk.github.io/assets/images/cover.jpg</link>
+      <url>https://blog.mbwarez.dk/assets/images/cover.jpg</url>
+      <link>https://blog.mbwarez.dk/assets/images/cover.jpg</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <copyright>Michael Bisbjerg</copyright>
     <lastBuildDate>Fri, 05 Mar 2021 23:27:14 +0000</lastBuildDate>
-    <atom:link href="https://blog.mbwarez.dk.github.io/tags/guides/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.mbwarez.dk/tags/guides/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Renaming an index in Elastic (slight hacks)</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2021/renaming-an-index-in-elastic/</link>
+      <link>https://blog.mbwarez.dk/posts/2021/renaming-an-index-in-elastic/</link>
       <pubDate>Fri, 05 Mar 2021 23:27:14 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2021/renaming-an-index-in-elastic/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2021/renaming-an-index-in-elastic/</guid>
       <description>How to rename an Elasticsearch index via manual state file edits (not recommended in production).</description>
     </item>
     <item>
       <title>Move WSL to different drive</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2021/move-wsl-to-different-drive/</link>
+      <link>https://blog.mbwarez.dk/posts/2021/move-wsl-to-different-drive/</link>
       <pubDate>Wed, 17 Feb 2021 17:42:17 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2021/move-wsl-to-different-drive/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2021/move-wsl-to-different-drive/</guid>
       <description>How to relocate a WSL container to another drive using the export and import commands.</description>
     </item>
   </channel>

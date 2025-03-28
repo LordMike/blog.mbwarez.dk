@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>NGINX on Thoughts, stories and ideas</title>
-    <link>https://blog.mbwarez.dk.github.io/tags/nginx/</link>
+    <link>https://blog.mbwarez.dk/tags/nginx/</link>
     <description>Recent content in NGINX on Thoughts, stories and ideas</description>
     <image>
       <title>Thoughts, stories and ideas</title>
-      <url>https://blog.mbwarez.dk.github.io/assets/images/cover.jpg</url>
-      <link>https://blog.mbwarez.dk.github.io/assets/images/cover.jpg</link>
+      <url>https://blog.mbwarez.dk/assets/images/cover.jpg</url>
+      <link>https://blog.mbwarez.dk/assets/images/cover.jpg</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <copyright>Michael Bisbjerg</copyright>
     <lastBuildDate>Thu, 07 Jul 2016 10:33:41 +0000</lastBuildDate>
-    <atom:link href="https://blog.mbwarez.dk.github.io/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.mbwarez.dk/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lets Encrypt organized for reverse nginx proxy</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2016/lets-encrypt-organized-for-reverse-nginx-proxy/</link>
+      <link>https://blog.mbwarez.dk/posts/2016/lets-encrypt-organized-for-reverse-nginx-proxy/</link>
       <pubDate>Thu, 07 Jul 2016 10:33:41 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2016/lets-encrypt-organized-for-reverse-nginx-proxy/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2016/lets-encrypt-organized-for-reverse-nginx-proxy/</guid>
       <description>Automating TLS certificate setup and renewal for reverse NGINX proxies using Let&amp;#39;s Encrypt.</description>
     </item>
   </channel>

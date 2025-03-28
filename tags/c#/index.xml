@@ -2,94 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>C# on Thoughts, stories and ideas</title>
-    <link>https://blog.mbwarez.dk.github.io/tags/c%23/</link>
+    <link>https://blog.mbwarez.dk/tags/c%23/</link>
     <description>Recent content in C# on Thoughts, stories and ideas</description>
     <image>
       <title>Thoughts, stories and ideas</title>
-      <url>https://blog.mbwarez.dk.github.io/assets/images/cover.jpg</url>
-      <link>https://blog.mbwarez.dk.github.io/assets/images/cover.jpg</link>
+      <url>https://blog.mbwarez.dk/assets/images/cover.jpg</url>
+      <link>https://blog.mbwarez.dk/assets/images/cover.jpg</link>
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <copyright>Michael Bisbjerg</copyright>
-    <lastBuildDate>Thu, 03 Jun 2021 12:28:36 +0000</lastBuildDate>
-    <atom:link href="https://blog.mbwarez.dk.github.io/tags/c%23/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jun 2023 16:43:12 +0000</lastBuildDate>
+    <atom:link href="https://blog.mbwarez.dk/tags/c%23/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Entity Framework Core: Querying views, but manipulating tables</title>
+      <link>https://blog.mbwarez.dk/posts/2023/entity-framework-core-querying-views-manipulating-tables/</link>
+      <pubDate>Thu, 08 Jun 2023 16:43:12 +0000</pubDate>
+      <guid>https://blog.mbwarez.dk/posts/2023/entity-framework-core-querying-views-manipulating-tables/</guid>
+      <description>Exploring techniques for querying from views while inserting/updating through tables in EF Core.</description>
+    </item>
     <item>
       <title>EntityFramework Core – Composite key filtering</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2021/entityframework-core-composite-key-filtering/</link>
+      <link>https://blog.mbwarez.dk/posts/2021/entityframework-core-composite-key-filtering/</link>
       <pubDate>Thu, 03 Jun 2021 12:28:36 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2021/entityframework-core-composite-key-filtering/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2021/entityframework-core-composite-key-filtering/</guid>
       <description>Using expression trees to dynamically filter on composite keys in EF Core.</description>
     </item>
     <item>
       <title>Introducing Elephant Projects - Cross-repository refactoring</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2021/introducing-elephant-projects-cross-repository-refactoring/</link>
+      <link>https://blog.mbwarez.dk/posts/2021/introducing-elephant-projects-cross-repository-refactoring/</link>
       <pubDate>Mon, 05 Apr 2021 19:53:27 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2021/introducing-elephant-projects-cross-repository-refactoring/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2021/introducing-elephant-projects-cross-repository-refactoring/</guid>
       <description>A local development tool for switching between NuGet and project references across multiple repositories.</description>
     </item>
     <item>
       <title>GH Mass-administration: Content</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2021/gh-mass-administration-content/</link>
+      <link>https://blog.mbwarez.dk/posts/2021/gh-mass-administration-content/</link>
       <pubDate>Sun, 28 Mar 2021 17:28:34 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2021/gh-mass-administration-content/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2021/gh-mass-administration-content/</guid>
       <description>Automating repository content and workflows using JSON metadata and a .NET tool.</description>
     </item>
     <item>
       <title>GH Mass-administration: Terraform</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2021/gh-mass-administration-terraform/</link>
+      <link>https://blog.mbwarez.dk/posts/2021/gh-mass-administration-terraform/</link>
       <pubDate>Sun, 28 Mar 2021 17:28:06 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2021/gh-mass-administration-terraform/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2021/gh-mass-administration-terraform/</guid>
       <description>Using Terraform to configure GitHub repository settings, secrets, and policies at scale.</description>
     </item>
     <item>
       <title>Mass-administration of GitHub repositories</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2021/gh-mass-administration/</link>
+      <link>https://blog.mbwarez.dk/posts/2021/gh-mass-administration/</link>
       <pubDate>Sat, 27 Mar 2021 23:10:59 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2021/gh-mass-administration/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2021/gh-mass-administration/</guid>
       <description>Overview of templating and managing multiple GitHub repositories with shared configuration and content.</description>
     </item>
     <item>
       <title>Space Engineers 01.172 - API Documentation</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2017/space-engineers-01-172-api-documentation/</link>
+      <link>https://blog.mbwarez.dk/posts/2017/space-engineers-01-172-api-documentation/</link>
       <pubDate>Sat, 05 Aug 2017 12:08:40 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2017/space-engineers-01-172-api-documentation/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2017/space-engineers-01-172-api-documentation/</guid>
       <description>API reference for SE 01.172 with focus on Sandbox.ModAPI scripting interfaces.</description>
     </item>
     <item>
       <title>Space Engineers, figuring out the API</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2017/space-engineers-figuring-out-the-api/</link>
+      <link>https://blog.mbwarez.dk/posts/2017/space-engineers-figuring-out-the-api/</link>
       <pubDate>Sat, 05 Aug 2017 12:06:11 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2017/space-engineers-figuring-out-the-api/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2017/space-engineers-figuring-out-the-api/</guid>
       <description>Tips for exploring and reverse-engineering the Space Engineers scripting API using tools like DotPeek.</description>
     </item>
     <item>
       <title>Deserializing different types based on properties, with Newtonsoft.Json</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2016/deserializing-different-types-based-on-properties-with-newtonsoft-json/</link>
+      <link>https://blog.mbwarez.dk/posts/2016/deserializing-different-types-based-on-properties-with-newtonsoft-json/</link>
       <pubDate>Wed, 10 Aug 2016 19:48:27 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2016/deserializing-different-types-based-on-properties-with-newtonsoft-json/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2016/deserializing-different-types-based-on-properties-with-newtonsoft-json/</guid>
       <description>Handling polymorphic JSON deserialization with custom JsonConverter in Newtonsoft.Json.</description>
     </item>
     <item>
       <title>Detecting mismatched objects with Newtonsoft.Json</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2016/detecting-mismatched-objects-with-newtonsoft-json/</link>
+      <link>https://blog.mbwarez.dk/posts/2016/detecting-mismatched-objects-with-newtonsoft-json/</link>
       <pubDate>Wed, 10 Aug 2016 19:48:13 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2016/detecting-mismatched-objects-with-newtonsoft-json/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2016/detecting-mismatched-objects-with-newtonsoft-json/</guid>
       <description>Catch missing or unexpected JSON fields during deserialization with a custom JsonSerializer setup.</description>
     </item>
     <item>
       <title>Bencoding Library–Part two</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2010/bencoding-library-party-two/</link>
+      <link>https://blog.mbwarez.dk/posts/2010/bencoding-library-party-two/</link>
       <pubDate>Fri, 13 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2010/bencoding-library-party-two/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://blog.mbwarez.dk.github.io/posts/2010/bencoding-library/&#34;&gt;Previously&lt;/a&gt;, I described a Bencoding Library I made to simplify working with the Bencoding structure in .NET. I also published it on &lt;a href=&#34;http://bencode.codeplex.com/&#34;&gt;Codeplex&lt;/a&gt;. However, I discovered a flaw—if a string contains a null-byte (as most &lt;code&gt;.torrent&lt;/code&gt; files do), it will fail. So I made a fix, which has been uploaded to Codeplex as &lt;a href=&#34;http://bencode.codeplex.com/SourceControl/changeset/changes/1102&#34;&gt;changeset 1102&lt;/a&gt;.&lt;/p&gt;
+      <guid>https://blog.mbwarez.dk/posts/2010/bencoding-library-party-two/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://blog.mbwarez.dk/posts/2010/bencoding-library/&#34;&gt;Previously&lt;/a&gt;, I described a Bencoding Library I made to simplify working with the Bencoding structure in .NET. I also published it on &lt;a href=&#34;http://bencode.codeplex.com/&#34;&gt;Codeplex&lt;/a&gt;. However, I discovered a flaw—if a string contains a null-byte (as most &lt;code&gt;.torrent&lt;/code&gt; files do), it will fail. So I made a fix, which has been uploaded to Codeplex as &lt;a href=&#34;http://bencode.codeplex.com/SourceControl/changeset/changes/1102&#34;&gt;changeset 1102&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;As can be seen in the changeset, a few files have been changed. Ignoring all the test files, the changes were made to:&lt;/p&gt;</description>
     </item>
     <item>
       <title>LINQ vs. Foreach</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2010/linq-vs-foreach/</link>
+      <link>https://blog.mbwarez.dk/posts/2010/linq-vs-foreach/</link>
       <pubDate>Tue, 10 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2010/linq-vs-foreach/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2010/linq-vs-foreach/</guid>
       <description>&lt;p&gt;I asked around while trying to learn how to use LINQ. LINQ is essentially SQL for .NET—it allows you to query objects directly in memory. For example:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;List&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;test&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;List&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;5&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;};&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;List&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;testnew&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;test&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;where&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;5&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;select&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;ToList&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
@@ -144,34 +151,34 @@
     </item>
     <item>
       <title>PDF Search Site</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2010/pdf-search-site/</link>
+      <link>https://blog.mbwarez.dk/posts/2010/pdf-search-site/</link>
       <pubDate>Tue, 10 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2010/pdf-search-site/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2010/pdf-search-site/</guid>
       <description>&lt;h1 id=&#34;an-introduction&#34;&gt;An Introduction&lt;/h1&gt;
 &lt;p&gt;So, I’m moving into an apartment in the near future. Following that, I will have to learn how to manage my documents and ensure I can find them back in time. I’ve thought of a few solutions, one of them being what I do now – where I simply have a folder with PDFs of my documents (I digitalize everything). This works fine now&amp;hellip; (I have like … 20 documents)&amp;hellip; But it may not work in 2 years when I have a hundred documents spread over many different corporations and years.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bencoding – A C# Library</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2010/bencoding-library/</link>
+      <link>https://blog.mbwarez.dk/posts/2010/bencoding-library/</link>
       <pubDate>Mon, 09 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2010/bencoding-library/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2010/bencoding-library/</guid>
       <description>&lt;p&gt;I’ve long wanted to write a &lt;a href=&#34;http://en.wikipedia.org/wiki/Bencode&#34;&gt;Bencoding&lt;/a&gt; library. Bencoding is an encoding format for encoding objects like text, lists, dictionaries, etc., into a single piece of text. It’s often used for transporting configuration files.&lt;/p&gt;
 &lt;p&gt;Bencoding is most famous for its use in the Bittorrent protocol—it forms the basis for &lt;code&gt;.torrent&lt;/code&gt; files. I wanted to create a C# library to support all known Bencoding object types. You can read &lt;a href=&#34;http://wiki.theory.org/BitTorrentSpecification#bencoding&#34;&gt;more about the encoding here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Wardriving – The triangulation algorithm</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2010/wardriving-triangulation/</link>
+      <link>https://blog.mbwarez.dk/posts/2010/wardriving-triangulation/</link>
       <pubDate>Sat, 07 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2010/wardriving-triangulation/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2010/wardriving-triangulation/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;For my &lt;a href=&#34;http://blog.mbwarez.dk/?p=161&#34;&gt;previous post&lt;/a&gt;, where I find the signal strength of WiFi spots, I also needed an algorithm to actually locate the spot. I decided to use triangulation, which is commonly used in wireless communications to locate devices based on signal strength from known positions.&lt;/p&gt;
 &lt;p&gt;As my system uses GPS, I had to consider the Earth&amp;rsquo;s curvature. Calculating the geographic midpoint on a sphere isn&amp;rsquo;t trivial, but &lt;a href=&#34;http://www.geomidpoint.com/calculation.html&#34;&gt;GeoMidpoint&lt;/a&gt; provides a great explanation (Method A).&lt;/p&gt;</description>
     </item>
     <item>
       <title>C# Wifi Scanner</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2010/wifi-scanner/</link>
+      <link>https://blog.mbwarez.dk/posts/2010/wifi-scanner/</link>
       <pubDate>Thu, 05 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2010/wifi-scanner/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2010/wifi-scanner/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;I’ve long wanted to build a WiFi-based application—ideally one that also records GPS location data for wardriving. I searched for manageable C# solutions integrated with .NET.&lt;/p&gt;
 &lt;h3 id=&#34;first-attempts&#34;&gt;First Attempts&lt;/h3&gt;
@@ -182,9 +189,9 @@
     </item>
     <item>
       <title>Danish CPR Numbers</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2010/cpr-numbers/</link>
+      <link>https://blog.mbwarez.dk/posts/2010/cpr-numbers/</link>
       <pubDate>Tue, 03 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2010/cpr-numbers/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2010/cpr-numbers/</guid>
       <description>&lt;p&gt;I was reading several articles about the new NemID system in Denmark, and concerns around how organized groups might &lt;a href=&#34;http://www.version2.dk/artikel/15708-danid-ja-det-er-muligt-at-spaerre-andres-nemid&#34;&gt;generate valid CPR numbers&lt;/a&gt; and brute-force passwords. This could lead to account lockouts—potentially paralyzing major parts of the country’s digital infrastructure.&lt;/p&gt;
 &lt;p&gt;To test this, I created code to generate valid CPR numbers based on known rules.&lt;/p&gt;
 &lt;h2 id=&#34;the-rules&#34;&gt;The Rules&lt;/h2&gt;
@@ -192,9 +199,9 @@
     </item>
     <item>
       <title>Mobifinance – Loaning organized</title>
-      <link>https://blog.mbwarez.dk.github.io/posts/2010/mobifinance-loaning-organized/</link>
+      <link>https://blog.mbwarez.dk/posts/2010/mobifinance-loaning-organized/</link>
       <pubDate>Sun, 01 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk.github.io/posts/2010/mobifinance-loaning-organized/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2010/mobifinance-loaning-organized/</guid>
       <description>&lt;h2 id=&#34;idea&#34;&gt;Idea&lt;/h2&gt;
 &lt;p&gt;While on a trip to Jutland, I had a splendid idea: a system to track loans—who I loaned money to and whether I ever got it back. It had to work on mobile devices and as a web app, so I built it as a small webpage.&lt;/p&gt;
 &lt;p&gt;I used an MSSQL database (hosted by &lt;a href=&#34;http://addnet.dk&#34;&gt;addnet.dk&lt;/a&gt;) and wrote the app in C#.&lt;/p&gt;
