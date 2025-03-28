@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.mbwarez.dk/tags/bash/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/tags/home-automation/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/posts/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/tags/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/tags/wled/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/posts/2025/wled-backup-script/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.mbwarez.dk/tags/.net/</loc>
     <lastmod>2023-06-08T16:43:12+00:00</lastmod>
   </url><url>
@@ -12,15 +33,6 @@
     <lastmod>2023-06-08T16:43:12+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/posts/2023/entity-framework-core-querying-views-manipulating-tables/</loc>
-    <lastmod>2023-06-08T16:43:12+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.mbwarez.dk/posts/</loc>
-    <lastmod>2023-06-08T16:43:12+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.mbwarez.dk/tags/</loc>
-    <lastmod>2023-06-08T16:43:12+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.mbwarez.dk/</loc>
     <lastmod>2023-06-08T16:43:12+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/tags/entity-framework-core/</loc>

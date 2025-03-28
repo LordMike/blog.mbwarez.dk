@@ -12,8 +12,29 @@
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <copyright>Michael Bisbjerg</copyright>
-    <lastBuildDate>Thu, 08 Jun 2023 16:43:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.mbwarez.dk/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bash</title>
+      <link>https://blog.mbwarez.dk/tags/bash/</link>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.mbwarez.dk/tags/bash/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Home Automation</title>
+      <link>https://blog.mbwarez.dk/tags/home-automation/</link>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.mbwarez.dk/tags/home-automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WLED</title>
+      <link>https://blog.mbwarez.dk/tags/wled/</link>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.mbwarez.dk/tags/wled/</guid>
+      <description></description>
+    </item>
     <item>
       <title>.NET</title>
       <link>https://blog.mbwarez.dk/tags/.net/</link>

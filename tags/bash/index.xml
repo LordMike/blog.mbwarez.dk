@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bash on Thoughts, stories and ideas</title>
+    <link>https://blog.mbwarez.dk/tags/bash/</link>
+    <description>Recent content in Bash on Thoughts, stories and ideas</description>
+    <image>
+      <title>Thoughts, stories and ideas</title>
+      <url>https://blog.mbwarez.dk/assets/images/cover.jpg</url>
+      <link>https://blog.mbwarez.dk/assets/images/cover.jpg</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en</language>
+    <copyright>Michael Bisbjerg</copyright>
+    <lastBuildDate>Fri, 28 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.mbwarez.dk/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WLED Backup script</title>
+      <link>https://blog.mbwarez.dk/posts/2025/wled-backup-script/</link>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.mbwarez.dk/posts/2025/wled-backup-script/</guid>
+      <description>A backup script that discovers WLED instances and backs their configs up</description>
+    </item>
+  </channel>
+</rss>
