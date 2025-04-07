@@ -2,19 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.mbwarez.dk/tags/badblocks/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/tags/dmsetup/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/tags/linux/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/posts/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/tags/storage/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/tags/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/posts/2025/04/bad-disks-dmsetup/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/tags/zfs/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.mbwarez.dk/tags/bash/</loc>
     <lastmod>2025-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/tags/home-automation/</loc>
-    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.mbwarez.dk/posts/</loc>
-    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.mbwarez.dk/tags/</loc>
-    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.mbwarez.dk/</loc>
     <lastmod>2025-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/tags/wled/</loc>
@@ -156,9 +174,6 @@
     <lastmod>2016-07-07T10:33:41+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/posts/2016/lets-encrypt-organized-for-reverse-nginx-proxy/</loc>
-    <lastmod>2016-07-07T10:33:41+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.mbwarez.dk/tags/linux/</loc>
     <lastmod>2016-07-07T10:33:41+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/tags/nginx/</loc>

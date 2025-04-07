@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Linux on Thoughts, stories and ideas</title>
-    <link>https://blog.mbwarez.dk/tags/linux/</link>
-    <description>Recent content in Linux on Thoughts, stories and ideas</description>
+    <title>Storage on Thoughts, stories and ideas</title>
+    <link>https://blog.mbwarez.dk/tags/storage/</link>
+    <description>Recent content in Storage on Thoughts, stories and ideas</description>
     <image>
       <title>Thoughts, stories and ideas</title>
       <url>https://blog.mbwarez.dk/assets/images/cover.jpg</url>
@@ -13,20 +13,13 @@
     <language>en</language>
     <copyright>Michael Bisbjerg</copyright>
     <lastBuildDate>Mon, 07 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.mbwarez.dk/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.mbwarez.dk/tags/storage/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using dmsetup to Salvage Disks with Bad Blocks</title>
       <link>https://blog.mbwarez.dk/posts/2025/04/bad-disks-dmsetup/</link>
       <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://blog.mbwarez.dk/posts/2025/04/bad-disks-dmsetup/</guid>
       <description>A guide to rescuing disks with bad blocks using dmsetup, avoiding the need for costly replacements.</description>
-    </item>
-    <item>
-      <title>Lets Encrypt organized for reverse nginx proxy</title>
-      <link>https://blog.mbwarez.dk/posts/2016/lets-encrypt-organized-for-reverse-nginx-proxy/</link>
-      <pubDate>Thu, 07 Jul 2016 10:33:41 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk/posts/2016/lets-encrypt-organized-for-reverse-nginx-proxy/</guid>
-      <description>Automating TLS certificate setup and renewal for reverse NGINX proxies using Let&amp;#39;s Encrypt.</description>
     </item>
   </channel>
 </rss>

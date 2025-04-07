@@ -12,8 +12,43 @@
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <copyright>Michael Bisbjerg</copyright>
-    <lastBuildDate>Fri, 28 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.mbwarez.dk/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Badblocks</title>
+      <link>https://blog.mbwarez.dk/tags/badblocks/</link>
+      <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.mbwarez.dk/tags/badblocks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dmsetup</title>
+      <link>https://blog.mbwarez.dk/tags/dmsetup/</link>
+      <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.mbwarez.dk/tags/dmsetup/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://blog.mbwarez.dk/tags/linux/</link>
+      <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.mbwarez.dk/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Storage</title>
+      <link>https://blog.mbwarez.dk/tags/storage/</link>
+      <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.mbwarez.dk/tags/storage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zfs</title>
+      <link>https://blog.mbwarez.dk/tags/zfs/</link>
+      <pubDate>Mon, 07 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.mbwarez.dk/tags/zfs/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Bash</title>
       <link>https://blog.mbwarez.dk/tags/bash/</link>
@@ -250,13 +285,6 @@
       <link>https://blog.mbwarez.dk/tags/lets-encrypt/</link>
       <pubDate>Thu, 07 Jul 2016 10:33:41 +0000</pubDate>
       <guid>https://blog.mbwarez.dk/tags/lets-encrypt/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linux</title>
-      <link>https://blog.mbwarez.dk/tags/linux/</link>
-      <pubDate>Thu, 07 Jul 2016 10:33:41 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk/tags/linux/</guid>
       <description></description>
     </item>
     <item>
