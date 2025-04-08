@@ -179,9 +179,4 @@ wget {{< ref "index.md" >}}readme.txt -O - >> /mnt/tmp/README.txt
 
 > ℹ️ Info: Now, if you move the disk to a new computer or similarly, then mounting the first partition will show the information needed to mount the second partition using dmsetup.
 
-> ⚠️ Important: It is possible to mount the second partition, as it will contain actual filesystem headers. A future version of this post might delve into making the partition unreadable as a filesystem. For example by remapping sectors such that the first sector is actually later on in the disk.
-
-## Summary
-By using this method, you can salvage a disk with bad sectors and make it usable again without having to replace it. This approach is especially useful when working with filesystems that do not support marking bad blocks, like ZFS.
-
-You can replicate this process for other disks by adjusting the disk IDs and table filenames.
+> ⚠️ Important: It is possible to mount the second partition, as it will contain actual filesystem headers. Ensure you only use the mapped device.
