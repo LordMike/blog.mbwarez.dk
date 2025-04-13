@@ -272,7 +272,7 @@ cp badblocks-4k.txt /mnt/tmp/
 
 # Copy this blogpost to the readme
 printf "Source: {{< ref "index.md" >}}\n\n" > /mnt/tmp/README.txt
-wget {{< ref "index.md" >}}readme.txt -O - >> /mnt/tmp/README.txt
+wget {{< ref "index.md" >}}index.md -O - >> /mnt/tmp/README.txt
 ```
 
 > ℹ️ Info: The ext3 partition holds the configuration files (`dmsetup` table, systemd service) so that everything follows the disk when you move it around. Setting its label to **'READ ME'** hints at its purpose and ensures anyone inspecting the disk understands its role.
