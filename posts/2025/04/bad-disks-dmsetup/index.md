@@ -275,10 +275,7 @@ cp dm-badblocks-DISK_ID.service /mnt/tmp/
 cp badblocks-4k.txt /mnt/tmp/
 
 # Copy this blogpost to the readme
-printf "Source: {{< ref "index.md" >}}\n\n" > /mnt/tmp/README.txt
-wget {{< ref "index.md" >}}index.md -O - >> /mnt/tmp/README.txt
-
-printf "Source: {{< ref \"index.md\" >}}\n\nGenerated on: %s UTC\n\n---\n\n" "$(date -u '+%Y-%m-%d %H:%M:%S')" > /mnt/tmp/README.txt
+printf "Source: {{< ref \"index.md\" >}}\nGenerated on: %s UTC\n\n---\n" "$(date -u '+%Y-%m-%d %H:%M:%S')" > /mnt/tmp/README.txt
 wget {{< ref "index.md" >}}index.md -O - >> /mnt/tmp/README.txt
 ```
 
