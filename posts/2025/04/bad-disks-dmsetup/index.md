@@ -86,30 +86,19 @@ generate_dmsetup_and_systemd_unit() {
     local badblocks_file="$2"
     local block_size="$3"
 
-    # Resolve input to a /dev/disk/by-id/ path
+    # Resolve input to a /dev/disk/by-id/ path (disk, not partition)
     local device=""
-
     if [[ "$input" =~ ^/dev/disk/by-id/ ]]; then
         device="$input"
     elif [[ "$input" =~ ^/dev/ ]]; then
-        # Try to find matching by-id symlink with recognizable prefixes preferred
-        device=$(find /dev/disk/by-id -lname "*${input##*/}" | \
-            grep -E '/dev/disk/by-id/(scsi|ata|nvme|sas)-[0-9a-fA-F]+' | \
-            head -n1)
-
-        # If no match with preferred prefixes, fall back wwn- prefix
+        device=$(find /dev/disk/by-id -lname "*${input##*/}" | grep -E '/dev/disk/by-id/(scsi|ata|nvme|sas)-[0-9a-fA-F]+' | head -n1)
         if [[ -z "$device" ]]; then
-            device=$(find /dev/disk/by-id -lname "*${input##*/}" | \
-                grep -E '/dev/disk/by-id/wwn-' | \
-                head -n1)
+            device=$(find /dev/disk/by-id -lname "*${input##*/}" | grep -E '/dev/disk/by-id/wwn-' | head -n1)
         fi
-
-        # If no match with preferred prefixes, fall back to any matching link
         if [[ -z "$device" ]]; then
             device=$(find /dev/disk/by-id -lname "*${input##*/}" | head -n1)
         fi
     else
-        # Assume input is an ID like scsi-...
         device="/dev/disk/by-id/$input"
     fi
 
@@ -119,6 +108,12 @@ generate_dmsetup_and_systemd_unit() {
     fi
 
     local id="${device##*/}"
+    local part_device="${device}-part2"
+    if [[ ! -e "$part_device" || ! -b "$part_device" ]]; then
+        echo "Error: Expected partition device $part_device not found." >&2
+        return 1
+    fi
+
     local name="dm-badblocks-${id}"
     local table_file="${name}.table"
     local service_file="${name}.service"
@@ -132,7 +127,6 @@ generate_dmsetup_and_systemd_unit() {
         echo "Error: block size must be >= 512" >&2
         return 1
     fi
-
     if (( block_size & (block_size - 1) )); then
         echo "Error: block size must be a power of 2" >&2
         return 1
@@ -140,42 +134,50 @@ generate_dmsetup_and_systemd_unit() {
 
     local scale=$((block_size / 512))
     local total_sectors
-    total_sectors=$(blockdev --getsz "$device")
+    total_sectors=$(blockdev --getsz "$part_device")
 
-    echo "Generating ${table_file} for $device..."
-    local -a numbers
+    echo "Generating ${table_file} for $part_device..."
+
+    # Parse/sort badblocks file (may be empty)
+    local -a badblock_sectors
     while IFS= read -r line; do
-        numbers+=($((line * scale)))
+        [[ -n "$line" ]] && badblock_sectors+=($((line * scale)))
     done < <(sort -n "$badblocks_file")
 
-    if (( numbers[0] <= 8 )); then
-        echo "Error: there are badblocks on the first sectors of the disk. This is not supported by this script." >&2
-        return 1
-    fi
-
-    {
-        local first_length=$((numbers[0] - 8))
-        echo "0 $first_length $device linear 8"
-        local offset=$((8 + first_length))
-        local prev=-1
-
-        for i in "${!numbers[@]}"; do
-            local num="${numbers[i]}"
-            if (( prev != -1 && num > prev + 1 )); then
-                local start=$((prev + 1))
-                local length=$((num - start))
-                echo "$start $length $device linear $offset"
-                offset=$((offset + length))
-            fi
-            prev=$num
-        done
-
-        if (( prev < total_sectors - 1 )); then
-            local start=$((prev + 1))
-            local length=$((total_sectors - start))
-            echo "$start $length $device linear $offset"
+    # Emit a dmsetup table file in the form "<virtual_offset> <length> linear <device> <physical_offset>"
+    if (( ${#badblock_sectors[@]} == 0 )); then
+        {
+            local length=$((total_sectors - 8))
+            echo "0 $length linear $part_device 8"
+        } > "$table_file"
+    else
+        if (( badblock_sectors[0] <= 8 )); then
+            echo "Error: there are badblocks on the first sectors of the disk. This is not supported by this script." >&2
+            return 1
         fi
-    } > "$table_file"
+        {
+            local first_length=$((badblock_sectors[0] - 8))
+            echo "0 $first_length linear $part_device 8"
+            local offset=$((first_length))
+            local physical_sector_prev=-1
+            for i in "${!badblock_sectors[@]}"; do
+                local physical_sector="${badblock_sectors[i]}"
+                if (( physical_sector_prev != -1 && physical_sector > physical_sector_prev + 1 )); then
+                    local start=$((physical_sector_prev + 1))
+                    local length=$((physical_sector - start))
+                    echo "$offset $length linear $part_device $start"
+                    offset=$((offset + length))
+                fi
+                physical_sector_prev=$physical_sector
+            done
+            # Final range
+            if (( physical_sector_prev < total_sectors - 1 )); then
+                local start=$((physical_sector_prev + 1))
+                local length=$((total_sectors - start))
+                echo "$offset $length linear $part_device $start"
+            fi
+        } > "$table_file"
+    fi
 
     echo "Generating ${service_file}..."
 
@@ -185,7 +187,6 @@ generate_dmsetup_and_systemd_unit() {
 [Unit]
 Description=Prepare dmsetup device for $name
 After=dev-disk-by${encoded_id}\\x2dpart2.device
-Requires=dev-disk-by${encoded_id}\\x2dpart2.device
 
 [Service]
 Type=oneshot
@@ -200,6 +201,9 @@ EOF
     echo "Done."
     echo "-> Table:   $PWD/$table_file"
     echo "-> Service: $PWD/$service_file"
+    if (( ${#badblock_sectors[@]} == 0 )); then
+        echo -e "\033[1;31mWARNING: badblocks file is empty. Outputting a table for the whole device.\033[0m" >&2
+    fi
 }
 ```
 {{< /collapse >}}
