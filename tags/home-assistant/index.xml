@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Automation on Thoughts, stories and ideas</title>
-    <link>https://blog.mbwarez.dk/tags/automation/</link>
-    <description>Recent content in Automation on Thoughts, stories and ideas</description>
+    <title>Home Assistant on Thoughts, stories and ideas</title>
+    <link>https://blog.mbwarez.dk/tags/home-assistant/</link>
+    <description>Recent content in Home Assistant on Thoughts, stories and ideas</description>
     <image>
       <title>Thoughts, stories and ideas</title>
       <url>https://blog.mbwarez.dk/assets/images/cover.jpg</url>
@@ -13,20 +13,13 @@
     <language>en</language>
     <copyright>Michael Bisbjerg</copyright>
     <lastBuildDate>Fri, 09 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.mbwarez.dk/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.mbwarez.dk/tags/home-assistant/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Smart Refresh Schedule for sensors in Home Assistant</title>
       <link>https://blog.mbwarez.dk/posts/2025/05/ha-smart-poll/</link>
       <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
       <guid>https://blog.mbwarez.dk/posts/2025/05/ha-smart-poll/</guid>
       <description>Reduce unnecessary sensor refreshes while keeping your local data fresh.</description>
-    </item>
-    <item>
-      <title>Lets Encrypt organized for reverse nginx proxy</title>
-      <link>https://blog.mbwarez.dk/posts/2016/lets-encrypt-organized-for-reverse-nginx-proxy/</link>
-      <pubDate>Thu, 07 Jul 2016 10:33:41 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk/posts/2016/lets-encrypt-organized-for-reverse-nginx-proxy/</guid>
-      <description>Automating TLS certificate setup and renewal for reverse NGINX proxies using Let&amp;#39;s Encrypt.</description>
     </item>
   </channel>
 </rss>

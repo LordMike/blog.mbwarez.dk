@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.mbwarez.dk/tags/automation/</loc>
+    <lastmod>2025-05-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/tags/efficiency/</loc>
+    <lastmod>2025-05-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/tags/home-assistant/</loc>
+    <lastmod>2025-05-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/posts/</loc>
+    <lastmod>2025-05-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/posts/2025/05/ha-smart-poll/</loc>
+    <lastmod>2025-05-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/tags/</loc>
+    <lastmod>2025-05-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/</loc>
+    <lastmod>2025-05-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://blog.mbwarez.dk/tags/badblocks/</loc>
     <lastmod>2025-04-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -11,16 +32,7 @@
     <loc>https://blog.mbwarez.dk/tags/linux/</loc>
     <lastmod>2025-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/</loc>
-    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.mbwarez.dk/tags/storage/</loc>
-    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.mbwarez.dk/tags/</loc>
-    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.mbwarez.dk/</loc>
     <lastmod>2025-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/posts/2025/04/bad-disks-dmsetup/</loc>
@@ -166,9 +178,6 @@
   </url><url>
     <loc>https://blog.mbwarez.dk/posts/2016/detecting-mismatched-objects-with-newtonsoft-json/</loc>
     <lastmod>2016-08-10T19:48:13+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.mbwarez.dk/tags/automation/</loc>
-    <lastmod>2016-07-07T10:33:41+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/tags/lets-encrypt/</loc>
     <lastmod>2016-07-07T10:33:41+00:00</lastmod>

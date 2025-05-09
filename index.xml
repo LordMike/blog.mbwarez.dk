@@ -12,8 +12,15 @@
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <copyright>Michael Bisbjerg</copyright>
-    <lastBuildDate>Mon, 07 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.mbwarez.dk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Smart Refresh Schedule for sensors in Home Assistant</title>
+      <link>https://blog.mbwarez.dk/posts/2025/05/ha-smart-poll/</link>
+      <pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.mbwarez.dk/posts/2025/05/ha-smart-poll/</guid>
+      <description>Reduce unnecessary sensor refreshes while keeping your local data fresh.</description>
+    </item>
     <item>
       <title>Using dmsetup to Salvage Disks with Bad Blocks</title>
       <link>https://blog.mbwarez.dk/posts/2025/04/bad-disks-dmsetup/</link>
