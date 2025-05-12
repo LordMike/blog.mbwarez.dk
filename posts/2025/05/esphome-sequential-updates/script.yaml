@@ -1,0 +1,60 @@
+alias: Update All ESPHome Firmware Sequentially
+mode: single
+sequence:
+  - variables:
+      esphome_updates: |
+        {{ states.update
+           | selectattr('attributes.title','equalto','ESPHome')
+           | selectattr('state','equalto','on')
+           | map(attribute='entity_id')
+           | list }}
+  - wait_template: |
+      {{ states.update
+         | selectattr('attributes.title','equalto','ESPHome')
+         | selectattr('attributes.in_progress','equalto', true)
+         | list
+         | length == 0 }}
+  - choose:
+      - conditions:
+          - condition: template
+            value_template: "{{ esphome_updates | length == 0 }}"
+        sequence:
+          - data:
+              title: ESPHome Updates
+              message: ✅ No ESPHome updates available.
+              notification_id: update_esphome_notification
+            action: persistent_notification.create
+  - data:
+      title: ESPHome Updates Started
+      message: >
+        Starting updates for {{ esphome_updates | count }} devices: {{
+        esphome_updates }}
+      notification_id: update_esphome_notification
+    action: persistent_notification.create
+  - repeat:
+      for_each: "{{ esphome_updates }}"
+      sequence:
+        - variables:
+            this_entity: "{{ repeat.item }}"
+        - data:
+            title: ESPHome Update Started
+            message: |
+              🔄 Starting update for {{ this_entity }}
+              ({{ repeat.index }} of {{ esphome_updates | count }})
+            notification_id: update_esphome_notification
+          action: persistent_notification.create
+        - data:
+            entity_id: "{{ this_entity }}"
+          action: update.install
+        - data:
+            title: ESPHome Update Completed
+            message: ✅ Finished updating {{ this_entity }}
+            notification_id: update_esphome_notification
+          action: persistent_notification.create
+  - data:
+      title: ESPHome Updates Complete
+      message: >
+        All done! Updated {{ esphome_updates | count }} devices: {{
+        esphome_updates }}
+      notification_id: update_esphome_notification
+    action: persistent_notification.create
