@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Energy on Thoughts, stories and ideas</title>
+    <link>https://blog.mbwarez.dk/tags/energy/</link>
+    <description>Recent content in Energy on Thoughts, stories and ideas</description>
+    <image>
+      <title>Thoughts, stories and ideas</title>
+      <url>https://blog.mbwarez.dk/assets/images/cover.jpg</url>
+      <link>https://blog.mbwarez.dk/assets/images/cover.jpg</link>
+    </image>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en</language>
+    <copyright>Michael Bisbjerg</copyright>
+    <lastBuildDate>Fri, 11 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.mbwarez.dk/tags/energy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>One Metric to Rule Them All: Making a Dumb Stove Fan Smart with Only Watts</title>
+      <link>https://blog.mbwarez.dk/posts/2025/07/ha-stove-fan-power-automation/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://blog.mbwarez.dk/posts/2025/07/ha-stove-fan-power-automation/</guid>
+      <description>Using just power usage readings, this Home Assistant automation figures out what your stove fan is doing-and shuts it down when you forget.</description>
+    </item>
+  </channel>
+</rss>

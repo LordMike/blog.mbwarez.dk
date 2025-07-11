@@ -3,7 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.mbwarez.dk/tags/automation/</loc>
-    <lastmod>2025-05-12T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/tags/energy/</loc>
+    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/tags/home-assistant/</loc>
+    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/posts/2025/07/ha-stove-fan-power-automation/</loc>
+    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/posts/</loc>
+    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/tags/power-monitoring/</loc>
+    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/tags/</loc>
+    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/</loc>
+    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/tags/esphome/</loc>
     <lastmod>2025-05-12T00:00:00+00:00</lastmod>
@@ -14,22 +35,10 @@
     <loc>https://blog.mbwarez.dk/tags/nodered/</loc>
     <lastmod>2025-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/</loc>
-    <lastmod>2025-05-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.mbwarez.dk/tags/</loc>
-    <lastmod>2025-05-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.mbwarez.dk/</loc>
-    <lastmod>2025-05-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.mbwarez.dk/posts/2025/05/esphome-sequential-updates/</loc>
     <lastmod>2025-05-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/tags/efficiency/</loc>
-    <lastmod>2025-05-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.mbwarez.dk/tags/home-assistant/</loc>
     <lastmod>2025-05-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/posts/2025/05/ha-smart-poll/</loc>
