@@ -3,27 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.mbwarez.dk/tags/automation/</loc>
-    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/tags/energy/</loc>
-    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
+    <loc>https://blog.mbwarez.dk/tags/aws/</loc>
+    <lastmod>2026-01-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/tags/home-assistant/</loc>
+    <lastmod>2026-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/posts/</loc>
+    <lastmod>2026-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/tags/python/</loc>
+    <lastmod>2026-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/tags/s3/</loc>
+    <lastmod>2026-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/posts/2026/01/s3-gfs-retention/</loc>
+    <lastmod>2026-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/tags/</loc>
+    <lastmod>2026-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/</loc>
+    <lastmod>2026-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.mbwarez.dk/tags/energy/</loc>
     <lastmod>2025-07-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/posts/2025/07/ha-stove-fan-power-automation/</loc>
     <lastmod>2025-07-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/</loc>
-    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://blog.mbwarez.dk/tags/power-monitoring/</loc>
-    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.mbwarez.dk/tags/</loc>
-    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.mbwarez.dk/</loc>
     <lastmod>2025-07-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/tags/esphome/</loc>
@@ -240,9 +252,6 @@
     <lastmod>2010-07-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/posts/2010/07/incremental-file-backup/</loc>
-    <lastmod>2010-07-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://blog.mbwarez.dk/tags/python/</loc>
     <lastmod>2010-07-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/posts/2010/07/sms-system/</loc>

@@ -12,8 +12,15 @@
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <copyright>Michael Bisbjerg</copyright>
-    <lastBuildDate>Thu, 29 Jul 2010 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.mbwarez.dk/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>S3 GFS Retention</title>
+      <link>https://blog.mbwarez.dk/posts/2026/01/s3-gfs-retention/</link>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://blog.mbwarez.dk/posts/2026/01/s3-gfs-retention/</guid>
+      <description>Keeping S3 backups under control with a GFS retention policy and a tiny Lambda.</description>
+    </item>
     <item>
       <title>Linux incremental hardlink backup system</title>
       <link>https://blog.mbwarez.dk/posts/2010/07/incremental-file-backup/</link>
