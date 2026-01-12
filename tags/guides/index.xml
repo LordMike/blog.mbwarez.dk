@@ -16,16 +16,16 @@
     <atom:link href="https://blog.mbwarez.dk/tags/guides/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Renaming an index in Elastic (slight hacks)</title>
-      <link>https://blog.mbwarez.dk/posts/2021/renaming-an-index-in-elastic/</link>
+      <link>https://blog.mbwarez.dk/posts/2021/03/renaming-an-index-in-elastic/</link>
       <pubDate>Fri, 05 Mar 2021 23:27:14 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk/posts/2021/renaming-an-index-in-elastic/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2021/03/renaming-an-index-in-elastic/</guid>
       <description>How to rename an Elasticsearch index via manual state file edits (not recommended in production).</description>
     </item>
     <item>
       <title>Move WSL to different drive</title>
-      <link>https://blog.mbwarez.dk/posts/2021/move-wsl-to-different-drive/</link>
+      <link>https://blog.mbwarez.dk/posts/2021/02/move-wsl-to-different-drive/</link>
       <pubDate>Wed, 17 Feb 2021 17:42:17 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk/posts/2021/move-wsl-to-different-drive/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2021/02/move-wsl-to-different-drive/</guid>
       <description>How to relocate a WSL container to another drive using the export and import commands.</description>
     </item>
   </channel>

@@ -16,74 +16,74 @@
     <atom:link href="https://blog.mbwarez.dk/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EntityFramework Core – Composite key filtering</title>
-      <link>https://blog.mbwarez.dk/posts/2021/entityframework-core-composite-key-filtering/</link>
+      <link>https://blog.mbwarez.dk/posts/2021/06/entityframework-core-composite-key-filtering/</link>
       <pubDate>Thu, 03 Jun 2021 12:28:36 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk/posts/2021/entityframework-core-composite-key-filtering/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2021/06/entityframework-core-composite-key-filtering/</guid>
       <description>Using expression trees to dynamically filter on composite keys in EF Core.</description>
     </item>
     <item>
       <title>Introducing Elephant Projects - Cross-repository refactoring</title>
-      <link>https://blog.mbwarez.dk/posts/2021/introducing-elephant-projects-cross-repository-refactoring/</link>
+      <link>https://blog.mbwarez.dk/posts/2021/04/introducing-elephant-projects-cross-repository-refactoring/</link>
       <pubDate>Mon, 05 Apr 2021 19:53:27 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk/posts/2021/introducing-elephant-projects-cross-repository-refactoring/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2021/04/introducing-elephant-projects-cross-repository-refactoring/</guid>
       <description>A local development tool for switching between NuGet and project references across multiple repositories.</description>
     </item>
     <item>
       <title>GH Mass-administration: Content</title>
-      <link>https://blog.mbwarez.dk/posts/2021/gh-mass-administration-content/</link>
+      <link>https://blog.mbwarez.dk/posts/2021/03/gh-mass-administration-content/</link>
       <pubDate>Sun, 28 Mar 2021 17:28:34 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk/posts/2021/gh-mass-administration-content/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2021/03/gh-mass-administration-content/</guid>
       <description>Automating repository content and workflows using JSON metadata and a .NET tool.</description>
     </item>
     <item>
       <title>GH Mass-administration: Terraform</title>
-      <link>https://blog.mbwarez.dk/posts/2021/gh-mass-administration-terraform/</link>
+      <link>https://blog.mbwarez.dk/posts/2021/03/gh-mass-administration-terraform/</link>
       <pubDate>Sun, 28 Mar 2021 17:28:06 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk/posts/2021/gh-mass-administration-terraform/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2021/03/gh-mass-administration-terraform/</guid>
       <description>Using Terraform to configure GitHub repository settings, secrets, and policies at scale.</description>
     </item>
     <item>
       <title>Mass-administration of GitHub repositories</title>
-      <link>https://blog.mbwarez.dk/posts/2021/gh-mass-administration/</link>
+      <link>https://blog.mbwarez.dk/posts/2021/03/gh-mass-administration/</link>
       <pubDate>Sat, 27 Mar 2021 23:10:59 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk/posts/2021/gh-mass-administration/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2021/03/gh-mass-administration/</guid>
       <description>Overview of templating and managing multiple GitHub repositories with shared configuration and content.</description>
     </item>
     <item>
       <title>Deserializing different types based on properties, with Newtonsoft.Json</title>
-      <link>https://blog.mbwarez.dk/posts/2016/deserializing-different-types-based-on-properties-with-newtonsoft-json/</link>
+      <link>https://blog.mbwarez.dk/posts/2016/08/deserializing-different-types-based-on-properties-with-newtonsoft-json/</link>
       <pubDate>Wed, 10 Aug 2016 19:48:27 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk/posts/2016/deserializing-different-types-based-on-properties-with-newtonsoft-json/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2016/08/deserializing-different-types-based-on-properties-with-newtonsoft-json/</guid>
       <description>Handling polymorphic JSON deserialization with custom JsonConverter in Newtonsoft.Json.</description>
     </item>
     <item>
       <title>Detecting mismatched objects with Newtonsoft.Json</title>
-      <link>https://blog.mbwarez.dk/posts/2016/detecting-mismatched-objects-with-newtonsoft-json/</link>
+      <link>https://blog.mbwarez.dk/posts/2016/08/detecting-mismatched-objects-with-newtonsoft-json/</link>
       <pubDate>Wed, 10 Aug 2016 19:48:13 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk/posts/2016/detecting-mismatched-objects-with-newtonsoft-json/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2016/08/detecting-mismatched-objects-with-newtonsoft-json/</guid>
       <description>Catch missing or unexpected JSON fields during deserialization with a custom JsonSerializer setup.</description>
     </item>
     <item>
       <title>Bencoding Library–Part two</title>
-      <link>https://blog.mbwarez.dk/posts/2010/bencoding-library-party-two/</link>
+      <link>https://blog.mbwarez.dk/posts/2010/08/bencoding-library-party-two/</link>
       <pubDate>Fri, 13 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk/posts/2010/bencoding-library-party-two/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://blog.mbwarez.dk/posts/2010/bencoding-library/&#34;&gt;Previously&lt;/a&gt;, I described a Bencoding Library I made to simplify working with the Bencoding structure in .NET. I also published it on &lt;a href=&#34;http://bencode.codeplex.com/&#34;&gt;Codeplex&lt;/a&gt;. However, I discovered a flaw—if a string contains a null-byte (as most &lt;code&gt;.torrent&lt;/code&gt; files do), it will fail. So I made a fix, which has been uploaded to Codeplex as &lt;a href=&#34;http://bencode.codeplex.com/SourceControl/changeset/changes/1102&#34;&gt;changeset 1102&lt;/a&gt;.&lt;/p&gt;
+      <guid>https://blog.mbwarez.dk/posts/2010/08/bencoding-library-party-two/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://blog.mbwarez.dk/posts/2010/08/bencoding-library/&#34;&gt;Previously&lt;/a&gt;, I described a Bencoding Library I made to simplify working with the Bencoding structure in .NET. I also published it on &lt;a href=&#34;http://bencode.codeplex.com/&#34;&gt;Codeplex&lt;/a&gt;. However, I discovered a flaw—if a string contains a null-byte (as most &lt;code&gt;.torrent&lt;/code&gt; files do), it will fail. So I made a fix, which has been uploaded to Codeplex as &lt;a href=&#34;http://bencode.codeplex.com/SourceControl/changeset/changes/1102&#34;&gt;changeset 1102&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;As can be seen in the changeset, a few files have been changed. Ignoring all the test files, the changes were made to:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bencoding – A C# Library</title>
-      <link>https://blog.mbwarez.dk/posts/2010/bencoding-library/</link>
+      <link>https://blog.mbwarez.dk/posts/2010/08/bencoding-library/</link>
       <pubDate>Mon, 09 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk/posts/2010/bencoding-library/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2010/08/bencoding-library/</guid>
       <description>&lt;p&gt;I’ve long wanted to write a &lt;a href=&#34;http://en.wikipedia.org/wiki/Bencode&#34;&gt;Bencoding&lt;/a&gt; library. Bencoding is an encoding format for encoding objects like text, lists, dictionaries, etc., into a single piece of text. It’s often used for transporting configuration files.&lt;/p&gt;
 &lt;p&gt;Bencoding is most famous for its use in the Bittorrent protocol—it forms the basis for &lt;code&gt;.torrent&lt;/code&gt; files. I wanted to create a C# library to support all known Bencoding object types. You can read &lt;a href=&#34;http://wiki.theory.org/BitTorrentSpecification#bencoding&#34;&gt;more about the encoding here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Danish CPR Numbers</title>
-      <link>https://blog.mbwarez.dk/posts/2010/cpr-numbers/</link>
+      <link>https://blog.mbwarez.dk/posts/2010/08/cpr-numbers/</link>
       <pubDate>Tue, 03 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk/posts/2010/cpr-numbers/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2010/08/cpr-numbers/</guid>
       <description>&lt;p&gt;I was reading several articles about the new NemID system in Denmark, and concerns around how organized groups might &lt;a href=&#34;http://www.version2.dk/artikel/15708-danid-ja-det-er-muligt-at-spaerre-andres-nemid&#34;&gt;generate valid CPR numbers&lt;/a&gt; and brute-force passwords. This could lead to account lockouts—potentially paralyzing major parts of the country’s digital infrastructure.&lt;/p&gt;
 &lt;p&gt;To test this, I created code to generate valid CPR numbers based on known rules.&lt;/p&gt;
 &lt;h2 id=&#34;the-rules&#34;&gt;The Rules&lt;/h2&gt;
@@ -91,9 +91,9 @@
     </item>
     <item>
       <title>Linux incremental hardlink backup system</title>
-      <link>https://blog.mbwarez.dk/posts/2010/incremental-file-backup/</link>
+      <link>https://blog.mbwarez.dk/posts/2010/07/incremental-file-backup/</link>
       <pubDate>Thu, 29 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk/posts/2010/incremental-file-backup/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2010/07/incremental-file-backup/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;While reviewing my old college&amp;rsquo;s IT class backup system (due to running low on disk space), I discovered a major flaw: a weekly 1:1 backup of every user&amp;rsquo;s files—about 40 GB per week. Many of these files never change. Ever.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Solution:&lt;/strong&gt; Incremental backups.&lt;/p&gt;

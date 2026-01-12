@@ -16,9 +16,9 @@
     <atom:link href="https://blog.mbwarez.dk/tags/nuget/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Consuming NuGet packages from my GitHub</title>
-      <link>https://blog.mbwarez.dk/posts/2021/consuming-my-nuget-packages-from-github/</link>
+      <link>https://blog.mbwarez.dk/posts/2021/03/consuming-my-nuget-packages-from-github/</link>
       <pubDate>Sun, 28 Mar 2021 10:55:53 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk/posts/2021/consuming-my-nuget-packages-from-github/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2021/03/consuming-my-nuget-packages-from-github/</guid>
       <description>A short guide for consuming GitHub-hosted NuGet packages, using access tokens and CLI.</description>
     </item>
   </channel>

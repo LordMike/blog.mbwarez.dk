@@ -16,9 +16,9 @@
     <atom:link href="https://blog.mbwarez.dk/tags/solution-management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introducing Elephant Projects - Cross-repository refactoring</title>
-      <link>https://blog.mbwarez.dk/posts/2021/introducing-elephant-projects-cross-repository-refactoring/</link>
+      <link>https://blog.mbwarez.dk/posts/2021/04/introducing-elephant-projects-cross-repository-refactoring/</link>
       <pubDate>Mon, 05 Apr 2021 19:53:27 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk/posts/2021/introducing-elephant-projects-cross-repository-refactoring/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2021/04/introducing-elephant-projects-cross-repository-refactoring/</guid>
       <description>A local development tool for switching between NuGet and project references across multiple repositories.</description>
     </item>
   </channel>

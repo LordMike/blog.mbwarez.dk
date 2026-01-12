@@ -37,9 +37,9 @@
     </item>
     <item>
       <title>Lets Encrypt organized for reverse nginx proxy</title>
-      <link>https://blog.mbwarez.dk/posts/2016/lets-encrypt-organized-for-reverse-nginx-proxy/</link>
+      <link>https://blog.mbwarez.dk/posts/2016/07/lets-encrypt-organized-for-reverse-nginx-proxy/</link>
       <pubDate>Thu, 07 Jul 2016 10:33:41 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk/posts/2016/lets-encrypt-organized-for-reverse-nginx-proxy/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2016/07/lets-encrypt-organized-for-reverse-nginx-proxy/</guid>
       <description>Automating TLS certificate setup and renewal for reverse NGINX proxies using Let&amp;#39;s Encrypt.</description>
     </item>
   </channel>

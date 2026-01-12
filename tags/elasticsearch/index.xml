@@ -16,9 +16,9 @@
     <atom:link href="https://blog.mbwarez.dk/tags/elasticsearch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Renaming an index in Elastic (slight hacks)</title>
-      <link>https://blog.mbwarez.dk/posts/2021/renaming-an-index-in-elastic/</link>
+      <link>https://blog.mbwarez.dk/posts/2021/03/renaming-an-index-in-elastic/</link>
       <pubDate>Fri, 05 Mar 2021 23:27:14 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk/posts/2021/renaming-an-index-in-elastic/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2021/03/renaming-an-index-in-elastic/</guid>
       <description>How to rename an Elasticsearch index via manual state file edits (not recommended in production).</description>
     </item>
   </channel>

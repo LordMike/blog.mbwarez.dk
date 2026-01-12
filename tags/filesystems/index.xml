@@ -16,9 +16,9 @@
     <atom:link href="https://blog.mbwarez.dk/tags/filesystems/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Move WSL to different drive</title>
-      <link>https://blog.mbwarez.dk/posts/2021/move-wsl-to-different-drive/</link>
+      <link>https://blog.mbwarez.dk/posts/2021/02/move-wsl-to-different-drive/</link>
       <pubDate>Wed, 17 Feb 2021 17:42:17 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk/posts/2021/move-wsl-to-different-drive/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2021/02/move-wsl-to-different-drive/</guid>
       <description>How to relocate a WSL container to another drive using the export and import commands.</description>
     </item>
   </channel>

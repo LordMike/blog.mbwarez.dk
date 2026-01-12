@@ -16,9 +16,9 @@
     <atom:link href="https://blog.mbwarez.dk/tags/efcore/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Entity Framework Core: Querying views, but manipulating tables</title>
-      <link>https://blog.mbwarez.dk/posts/2023/entity-framework-core-querying-views-manipulating-tables/</link>
+      <link>https://blog.mbwarez.dk/posts/2023/06/entity-framework-core-querying-views-manipulating-tables/</link>
       <pubDate>Thu, 08 Jun 2023 16:43:12 +0000</pubDate>
-      <guid>https://blog.mbwarez.dk/posts/2023/entity-framework-core-querying-views-manipulating-tables/</guid>
+      <guid>https://blog.mbwarez.dk/posts/2023/06/entity-framework-core-querying-views-manipulating-tables/</guid>
       <description>Exploring techniques for querying from views while inserting/updating through tables in EF Core.</description>
     </item>
   </channel>

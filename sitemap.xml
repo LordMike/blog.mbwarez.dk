@@ -83,13 +83,13 @@
     <loc>https://blog.mbwarez.dk/tags/efcore/</loc>
     <lastmod>2023-06-08T16:43:12+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/2023/entity-framework-core-querying-views-manipulating-tables/</loc>
+    <loc>https://blog.mbwarez.dk/posts/2023/06/entity-framework-core-querying-views-manipulating-tables/</loc>
     <lastmod>2023-06-08T16:43:12+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/tags/entity-framework-core/</loc>
     <lastmod>2021-06-03T12:28:36+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/2021/entityframework-core-composite-key-filtering/</loc>
+    <loc>https://blog.mbwarez.dk/posts/2021/06/entityframework-core-composite-key-filtering/</loc>
     <lastmod>2021-06-03T12:28:36+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/tags/expressions/</loc>
@@ -101,7 +101,7 @@
     <loc>https://blog.mbwarez.dk/tags/open-source/</loc>
     <lastmod>2021-06-03T12:28:36+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/2021/introducing-elephant-projects-cross-repository-refactoring/</loc>
+    <loc>https://blog.mbwarez.dk/posts/2021/04/introducing-elephant-projects-cross-repository-refactoring/</loc>
     <lastmod>2021-04-05T19:53:27+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/tags/projects/</loc>
@@ -116,7 +116,7 @@
     <loc>https://blog.mbwarez.dk/tags/utilities/</loc>
     <lastmod>2021-04-05T19:53:27+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/2021/gh-mass-administration-content/</loc>
+    <loc>https://blog.mbwarez.dk/posts/2021/03/gh-mass-administration-content/</loc>
     <lastmod>2021-03-28T17:28:34+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/tags/github/</loc>
@@ -125,10 +125,10 @@
     <loc>https://blog.mbwarez.dk/tags/terraform/</loc>
     <lastmod>2021-03-28T17:28:34+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/2021/gh-mass-administration-terraform/</loc>
+    <loc>https://blog.mbwarez.dk/posts/2021/03/gh-mass-administration-terraform/</loc>
     <lastmod>2021-03-28T17:28:06+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/2021/consuming-my-nuget-packages-from-github/</loc>
+    <loc>https://blog.mbwarez.dk/posts/2021/03/consuming-my-nuget-packages-from-github/</loc>
     <lastmod>2021-03-28T10:55:53+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/tags/devops/</loc>
@@ -140,7 +140,7 @@
     <loc>https://blog.mbwarez.dk/tags/packaging/</loc>
     <lastmod>2021-03-28T10:55:53+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/2021/gh-mass-administration/</loc>
+    <loc>https://blog.mbwarez.dk/posts/2021/03/gh-mass-administration/</loc>
     <lastmod>2021-03-27T23:10:59+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/tags/advanced-tips/</loc>
@@ -155,7 +155,7 @@
     <loc>https://blog.mbwarez.dk/tags/index-management/</loc>
     <lastmod>2021-03-05T23:27:14+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/2021/renaming-an-index-in-elastic/</loc>
+    <loc>https://blog.mbwarez.dk/posts/2021/03/renaming-an-index-in-elastic/</loc>
     <lastmod>2021-03-05T23:27:14+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/tags/cli/</loc>
@@ -164,7 +164,7 @@
     <loc>https://blog.mbwarez.dk/tags/filesystems/</loc>
     <lastmod>2021-02-17T17:42:17+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/2021/move-wsl-to-different-drive/</loc>
+    <loc>https://blog.mbwarez.dk/posts/2021/02/move-wsl-to-different-drive/</loc>
     <lastmod>2021-02-17T17:42:17+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/tags/windows/</loc>
@@ -188,22 +188,22 @@
     <loc>https://blog.mbwarez.dk/tags/space-engineers/</loc>
     <lastmod>2017-08-05T12:08:40+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/2017/space-engineers-01-172-api-documentation/</loc>
+    <loc>https://blog.mbwarez.dk/posts/2017/08/space-engineers-01-172-api-documentation/</loc>
     <lastmod>2017-08-05T12:08:40+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/2017/space-engineers-figuring-out-the-api/</loc>
+    <loc>https://blog.mbwarez.dk/posts/2017/08/space-engineers-figuring-out-the-api/</loc>
     <lastmod>2017-08-05T12:06:11+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/2016/deserializing-different-types-based-on-properties-with-newtonsoft-json/</loc>
+    <loc>https://blog.mbwarez.dk/posts/2016/08/deserializing-different-types-based-on-properties-with-newtonsoft-json/</loc>
     <lastmod>2016-08-10T19:48:27+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/2016/detecting-mismatched-objects-with-newtonsoft-json/</loc>
+    <loc>https://blog.mbwarez.dk/posts/2016/08/detecting-mismatched-objects-with-newtonsoft-json/</loc>
     <lastmod>2016-08-10T19:48:13+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/tags/lets-encrypt/</loc>
     <lastmod>2016-07-07T10:33:41+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/2016/lets-encrypt-organized-for-reverse-nginx-proxy/</loc>
+    <loc>https://blog.mbwarez.dk/posts/2016/07/lets-encrypt-organized-for-reverse-nginx-proxy/</loc>
     <lastmod>2016-07-07T10:33:41+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/tags/nginx/</loc>
@@ -212,40 +212,40 @@
     <loc>https://blog.mbwarez.dk/tags/ssl/</loc>
     <lastmod>2016-07-07T10:33:41+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/2010/bencoding-library-party-two/</loc>
+    <loc>https://blog.mbwarez.dk/posts/2010/08/bencoding-library-party-two/</loc>
     <lastmod>2010-08-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/2010/linq-vs-foreach/</loc>
+    <loc>https://blog.mbwarez.dk/posts/2010/08/linq-vs-foreach/</loc>
     <lastmod>2010-08-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/2010/pdf-search-site/</loc>
+    <loc>https://blog.mbwarez.dk/posts/2010/08/pdf-search-site/</loc>
     <lastmod>2010-08-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/2010/bencoding-library/</loc>
+    <loc>https://blog.mbwarez.dk/posts/2010/08/bencoding-library/</loc>
     <lastmod>2010-08-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/2010/wardriving-triangulation/</loc>
+    <loc>https://blog.mbwarez.dk/posts/2010/08/wardriving-triangulation/</loc>
     <lastmod>2010-08-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/2010/wifi-scanner/</loc>
+    <loc>https://blog.mbwarez.dk/posts/2010/08/wifi-scanner/</loc>
     <lastmod>2010-08-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/2010/cpr-numbers/</loc>
+    <loc>https://blog.mbwarez.dk/posts/2010/08/cpr-numbers/</loc>
     <lastmod>2010-08-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/2010/mobifinance-loaning-organized/</loc>
+    <loc>https://blog.mbwarez.dk/posts/2010/08/mobifinance-loaning-organized/</loc>
     <lastmod>2010-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/tags/algorithms/</loc>
     <lastmod>2010-07-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/2010/incremental-file-backup/</loc>
+    <loc>https://blog.mbwarez.dk/posts/2010/07/incremental-file-backup/</loc>
     <lastmod>2010-07-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/tags/python/</loc>
     <lastmod>2010-07-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.mbwarez.dk/posts/2010/sms-system/</loc>
+    <loc>https://blog.mbwarez.dk/posts/2010/07/sms-system/</loc>
     <lastmod>2010-07-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.mbwarez.dk/archives/</loc>
