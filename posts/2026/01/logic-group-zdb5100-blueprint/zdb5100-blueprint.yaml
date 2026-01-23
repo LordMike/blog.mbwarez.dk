@@ -1,0 +1,282 @@
+blueprint:
+  name: Logic Group ZDB5100 Wall Switch
+  description: >
+    Assign actions to each button (1–4) and click type (single, double, triple, hold, release)
+    using the event entities created by Z-Wave JS in Home Assistant.
+  domain: automation
+  input:
+    triggers:
+      name: Inputs (required)
+      icon: mdi:cog
+      description: Select the 4 scene triggers for the ZDB5100
+      input:
+        switch_entity_1:
+          name: Button 1 entity (Top Left)
+          description: Typically `event.wallswitch_2_scene_001`
+          selector:
+            entity:
+              filter:
+                integration: zwave_js
+                domain: event
+        switch_entity_2:
+          name: Button 2 entity (Top Right)
+          description: Typically `event.wallswitch_2_scene_002`
+          selector:
+            entity:
+              filter:
+                integration: zwave_js
+                domain: event
+        switch_entity_3:
+          name: Button 3 entity (Bottom Left)
+          description: Typically `event.wallswitch_2_scene_003`
+          selector:
+            entity:
+              filter:
+                integration: zwave_js
+                domain: event
+        switch_entity_4:
+          name: Button 4 entity (Bottom Right)
+          description: Typically `event.wallswitch_2_scene_004`
+          selector:
+            entity:
+              filter:
+                integration: zwave_js
+                domain: event
+
+    inputs_button_1:
+      name: Button 1 actions (top left)
+      icon: mdi:numeric-1-circle
+      collapsed: true
+      input:
+        button_1_single:
+          name: Button 1 – Single press
+          default: []
+          selector:
+            action: {}
+        button_1_double:
+          name: Button 1 – Double press
+          default: []
+          selector:
+            action: {}
+        button_1_triple:
+          name: Button 1 – Triple press
+          default: []
+          selector:
+            action: {}
+        button_1_hold:
+          name: Button 1 – Hold
+          default: []
+          selector:
+            action: {}
+        button_1_release:
+          name: Button 1 – Release
+          default: []
+          selector:
+            action: {}
+
+    inputs_button_2:
+      name: Button 2 actions (top right)
+      icon: mdi:numeric-2-circle
+      collapsed: true
+      input:
+        button_2_single:
+          name: Button 2 – Single press
+          default: []
+          selector:
+            action: {}
+        button_2_double:
+          name: Button 2 – Double press
+          default: []
+          selector:
+            action: {}
+        button_2_triple:
+          name: Button 2 – Triple press
+          default: []
+          selector:
+            action: {}
+        button_2_hold:
+          name: Button 2 – Hold
+          default: []
+          selector:
+            action: {}
+        button_2_release:
+          name: Button 2 – Release
+          default: []
+          selector:
+            action: {}
+
+    inputs_button_3:
+      name: Button 3 actions (bottom left)
+      icon: mdi:numeric-3-circle
+      collapsed: true
+      input:
+        button_3_single:
+          name: Button 3 – Single press
+          default: []
+          selector:
+            action: {}
+        button_3_double:
+          name: Button 3 – Double press
+          default: []
+          selector:
+            action: {}
+        button_3_triple:
+          name: Button 3 – Triple press
+          default: []
+          selector:
+            action: {}
+        button_3_hold:
+          name: Button 3 – Hold
+          default: []
+          selector:
+            action: {}
+        button_3_release:
+          name: Button 3 – Release
+          default: []
+          selector:
+            action: {}
+
+    inputs_button_4:
+      name: Button 4 actions (bottom right)
+      icon: mdi:numeric-4-circle
+      collapsed: true
+      input:
+        button_4_single:
+          name: Button 4 – Single press
+          default: []
+          selector:
+            action: {}
+        button_4_double:
+          name: Button 4 – Double press
+          default: []
+          selector:
+            action: {}
+        button_4_triple:
+          name: Button 4 – Triple press
+          default: []
+          selector:
+            action: {}
+        button_4_hold:
+          name: Button 4 – Hold
+          default: []
+          selector:
+            action: {}
+        button_4_release:
+          name: Button 4 – Release
+          default: []
+          selector:
+            action: {}
+
+mode: parallel
+trigger:
+  - trigger: state
+    entity_id: !input switch_entity_1
+  - trigger: state
+    entity_id: !input switch_entity_2
+  - trigger: state
+    entity_id: !input switch_entity_3
+  - trigger: state
+    entity_id: !input switch_entity_4
+
+condition:
+  # If the z-wave devices are unavilable, the events will trigger twice - first to unavailable and then to their last event
+  - "{{ trigger.from_state.state not in ['unknown', 'unavailable'] }}"
+  - "{{ trigger.to_state.state not in ['unknown', 'unavailable'] }}"
+  - "{{ trigger.from_state.state != trigger.to_state.state}}"
+
+action:
+  - variables:
+      # The trigger id index is from the triggers to this automation.
+      # It should be faster than comparing with entity ids
+      btn_id: >
+        {% if trigger.id ==   '0' %}1
+        {% elif trigger.id == '1' %}2
+        {% elif trigger.id == '2' %}3
+        {% elif trigger.id == '3' %}4
+        {% else %}BAD INPUT {{ trigger.id }}{% endif %}
+      click_type: "{{ trigger.to_state.attributes.event_type | lower }}"
+
+  - choose:
+      - conditions:
+          - condition: template
+            value_template: "{{ btn_id == 1 and click_type == 'keypressed' }}"
+        sequence: !input button_1_single
+      - conditions:
+          - condition: template
+            value_template: "{{ btn_id == 1 and click_type == 'keypressed2x' }}"
+        sequence: !input button_1_double
+      - conditions:
+          - condition: template
+            value_template: "{{ btn_id == 1 and click_type == 'keypressed3x' }}"
+        sequence: !input button_1_triple
+      - conditions:
+          - condition: template
+            value_template: "{{ btn_id == 1 and click_type == 'keyhelddown' }}"
+        sequence: !input button_1_hold
+      - conditions:
+          - condition: template
+            value_template: "{{ btn_id == 1 and click_type == 'keyreleased' }}"
+        sequence: !input button_1_release
+
+      - conditions:
+          - condition: template
+            value_template: "{{ btn_id == 2 and click_type == 'keypressed' }}"
+        sequence: !input button_2_single
+      - conditions:
+          - condition: template
+            value_template: "{{ btn_id == 2 and click_type == 'keypressed2x' }}"
+        sequence: !input button_2_double
+      - conditions:
+          - condition: template
+            value_template: "{{ btn_id == 2 and click_type == 'keypressed3x' }}"
+        sequence: !input button_2_triple
+      - conditions:
+          - condition: template
+            value_template: "{{ btn_id == 2 and click_type == 'keyhelddown' }}"
+        sequence: !input button_2_hold
+      - conditions:
+          - condition: template
+            value_template: "{{ btn_id == 2 and click_type == 'keyreleased' }}"
+        sequence: !input button_2_release
+
+      - conditions:
+          - condition: template
+            value_template: "{{ btn_id == 3 and click_type == 'keypressed' }}"
+        sequence: !input button_3_single
+      - conditions:
+          - condition: template
+            value_template: "{{ btn_id == 3 and click_type == 'keypressed2x' }}"
+        sequence: !input button_3_double
+      - conditions:
+          - condition: template
+            value_template: "{{ btn_id == 3 and click_type == 'keypressed3x' }}"
+        sequence: !input button_3_triple
+      - conditions:
+          - condition: template
+            value_template: "{{ btn_id == 3 and click_type == 'keyhelddown' }}"
+        sequence: !input button_3_hold
+      - conditions:
+          - condition: template
+            value_template: "{{ btn_id == 3 and click_type == 'keyreleased' }}"
+        sequence: !input button_3_release
+
+      - conditions:
+          - condition: template
+            value_template: "{{ btn_id == 4 and click_type == 'keypressed' }}"
+        sequence: !input button_4_single
+      - conditions:
+          - condition: template
+            value_template: "{{ btn_id == 4 and click_type == 'keypressed2x' }}"
+        sequence: !input button_4_double
+      - conditions:
+          - condition: template
+            value_template: "{{ btn_id == 4 and click_type == 'keypressed3x' }}"
+        sequence: !input button_4_triple
+      - conditions:
+          - condition: template
+            value_template: "{{ btn_id == 4 and click_type == 'keyhelddown' }}"
+        sequence: !input button_4_hold
+      - conditions:
+          - condition: template
+            value_template: "{{ btn_id == 4 and click_type == 'keyreleased' }}"
+        sequence: !input button_4_release

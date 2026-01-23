@@ -12,8 +12,15 @@
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <copyright>Michael Bisbjerg</copyright>
-    <lastBuildDate>Mon, 12 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.mbwarez.dk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Home Assistant blueprint for Logic Group ZDB5100 (and ZBA7140)</title>
+      <link>https://blog.mbwarez.dk/posts/2026/01/logic-group-zdb5100-blueprint/</link>
+      <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://blog.mbwarez.dk/posts/2026/01/logic-group-zdb5100-blueprint/</guid>
+      <description>A Z-Wave JS blueprint that exposes all 20 scene combinations across the four keys, with placeholders for your automations.</description>
+    </item>
     <item>
       <title>S3 GFS Retention</title>
       <link>https://blog.mbwarez.dk/posts/2026/01/s3-gfs-retention/</link>

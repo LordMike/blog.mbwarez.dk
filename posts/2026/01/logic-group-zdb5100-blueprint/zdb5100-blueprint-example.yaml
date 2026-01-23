@@ -1,0 +1,27 @@
+alias: button_5_4 btn automation
+description: Sample usage of ZDB5100 button blueprint, hooked up to a ZDB5100 named button_5_4.
+use_blueprint:
+  path: local/zdb5100-button-action.yaml
+  input:
+    switch_entity_1: event.button_5_4_scene_001
+    switch_entity_2: event.button_5_4_scene_002
+    switch_entity_3: event.button_5_4_scene_003
+    switch_entity_4: event.button_5_4_scene_004
+    button_1_single:
+      - action: light.turn_off
+        target:
+          entity_id: light.wallswitch_5_dimmer
+    button_2_single:
+      - action: media_player.turn_off
+    button_4_single:
+      - action: script.light_sovevarelse_lightstrip_mode_1x_or_off
+        data:
+          mode: low_or_off
+    button_4_double:
+      - action: script.light_sovevarelse_lightstrip_mode_1x_or_off
+        data:
+          mode: medium
+    button_4_triple:
+      - action: script.light_sovevarelse_lightstrip_mode_1x_or_off
+        data:
+          mode: high
