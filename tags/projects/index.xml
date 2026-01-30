@@ -45,14 +45,14 @@
     <item>
       <title>Deserializing different types based on properties, with Newtonsoft.Json</title>
       <link>https://blog.mbwarez.dk/posts/2016/08/deserializing-different-types-based-on-properties-with-newtonsoft-json/</link>
-      <pubDate>Wed, 10 Aug 2016 19:48:27 +0000</pubDate>
+      <pubDate>Wed, 10 Aug 2016 00:00:00 +0000</pubDate>
       <guid>https://blog.mbwarez.dk/posts/2016/08/deserializing-different-types-based-on-properties-with-newtonsoft-json/</guid>
       <description>Handling polymorphic JSON deserialization with custom JsonConverter in Newtonsoft.Json.</description>
     </item>
     <item>
       <title>Detecting mismatched objects with Newtonsoft.Json</title>
       <link>https://blog.mbwarez.dk/posts/2016/08/detecting-mismatched-objects-with-newtonsoft-json/</link>
-      <pubDate>Wed, 10 Aug 2016 19:48:13 +0000</pubDate>
+      <pubDate>Wed, 10 Aug 2016 00:00:00 +0000</pubDate>
       <guid>https://blog.mbwarez.dk/posts/2016/08/detecting-mismatched-objects-with-newtonsoft-json/</guid>
       <description>Catch missing or unexpected JSON fields during deserialization with a custom JsonSerializer setup.</description>
     </item>

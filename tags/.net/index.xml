@@ -24,7 +24,7 @@
     <item>
       <title>EntityFramework Core – Composite key filtering</title>
       <link>https://blog.mbwarez.dk/posts/2021/06/entityframework-core-composite-key-filtering/</link>
-      <pubDate>Thu, 03 Jun 2021 12:28:36 +0000</pubDate>
+      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
       <guid>https://blog.mbwarez.dk/posts/2021/06/entityframework-core-composite-key-filtering/</guid>
       <description>Using expression trees to dynamically filter on composite keys in EF Core.</description>
     </item>
@@ -80,14 +80,14 @@
     <item>
       <title>Deserializing different types based on properties, with Newtonsoft.Json</title>
       <link>https://blog.mbwarez.dk/posts/2016/08/deserializing-different-types-based-on-properties-with-newtonsoft-json/</link>
-      <pubDate>Wed, 10 Aug 2016 19:48:27 +0000</pubDate>
+      <pubDate>Wed, 10 Aug 2016 00:00:00 +0000</pubDate>
       <guid>https://blog.mbwarez.dk/posts/2016/08/deserializing-different-types-based-on-properties-with-newtonsoft-json/</guid>
       <description>Handling polymorphic JSON deserialization with custom JsonConverter in Newtonsoft.Json.</description>
     </item>
     <item>
       <title>Detecting mismatched objects with Newtonsoft.Json</title>
       <link>https://blog.mbwarez.dk/posts/2016/08/detecting-mismatched-objects-with-newtonsoft-json/</link>
-      <pubDate>Wed, 10 Aug 2016 19:48:13 +0000</pubDate>
+      <pubDate>Wed, 10 Aug 2016 00:00:00 +0000</pubDate>
       <guid>https://blog.mbwarez.dk/posts/2016/08/detecting-mismatched-objects-with-newtonsoft-json/</guid>
       <description>Catch missing or unexpected JSON fields during deserialization with a custom JsonSerializer setup.</description>
     </item>

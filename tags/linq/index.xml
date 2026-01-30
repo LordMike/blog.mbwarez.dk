@@ -12,12 +12,12 @@
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <copyright>Michael Bisbjerg</copyright>
-    <lastBuildDate>Thu, 03 Jun 2021 12:28:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Jun 2021 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://blog.mbwarez.dk/tags/linq/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EntityFramework Core – Composite key filtering</title>
       <link>https://blog.mbwarez.dk/posts/2021/06/entityframework-core-composite-key-filtering/</link>
-      <pubDate>Thu, 03 Jun 2021 12:28:36 +0000</pubDate>
+      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
       <guid>https://blog.mbwarez.dk/posts/2021/06/entityframework-core-composite-key-filtering/</guid>
       <description>Using expression trees to dynamically filter on composite keys in EF Core.</description>
     </item>
